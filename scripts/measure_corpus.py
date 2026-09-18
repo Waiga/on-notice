@@ -128,6 +128,7 @@ def main():
     with_findings = 0
     ingredient_counts = []
     by_substance = collections.Counter()
+    by_matched_name = collections.Counter()
     by_date = collections.Counter()
     by_regulation = collections.Counter()
     products_by_substance_count = collections.Counter()
@@ -147,10 +148,17 @@ def main():
         if not findings:
             continue
         with_findings += 1
-        subs = sorted({f.matched_name for f in findings})
+        # Group by substance, not by the name that happened to match. Citral
+        # and Geranial are two glossary names for one substance, and counting
+        # the match would report it twice and call the second one a ninth
+        # substance.
+        subs = sorted({reg.substance_of(f.entry) for f in findings})
+        matched = sorted({f.matched_name for f in findings})
         products_by_substance_count[len(subs)] += 1
         for s in subs:
             by_substance[s] += 1
+        for m in matched:
+            by_matched_name[m] += 1
         for f in findings:
             by_date[f.date] += 1
             by_regulation[f.entry["celex"]] += 1
@@ -190,7 +198,9 @@ def main():
         print("   {}  {:>7}".format(r, c))
     print()
     print("distinct register substances actually seen in the corpus:",
-          len(by_substance), "of", reg.distinct_names())
+          len(by_substance), "of", reg.distinct_substances())
+    print("distinct register names that matched a label:",
+          len(by_matched_name), "of", reg.distinct_names())
 
     if args.out:
         json.dump({"corpus_sha256": digest, "corpus_bytes": size,
@@ -198,6 +208,7 @@ def main():
                    "products": products, "unreadable": unreadable,
                    "lists_read": total_read, "with_findings": with_findings,
                    "by_substance": by_substance.most_common(),
+                   "by_matched_name": by_matched_name.most_common(),
                    "by_date": sorted(by_date.items()),
                    "by_regulation": by_regulation.most_common(),
                    "sample": hits},

@@ -93,23 +93,30 @@ is not vendored here. Only the measurements are.
 date that has not arrived.** 2,703 name one such substance, 334 name two, 13 name
 three.
 
-Counted by the number of lists naming each:
+Counted by the number of lists naming each. A substance is counted once however
+the label spelled it. The register holds several names for most of its
+substances, and Geranial is one of them: it is a second glossary name for
+Citral, not a substance of its own. So the three lists that printed Geranial are
+three of Citral's 1,419, and there is no Geranial row. The tool itself still
+reports the name it read on your label, so a list printing Geranial is reported
+as Geranial.
 
 | Substance | Lists | Date | What the date is |
 |---|---:|---|---|
 | Benzyl Salicylate | 1,614 | 1 January 2027 | new restriction starts |
-| Citral | 1,416 | 1 January 2027 | new restriction starts |
-| Diethylamino Hydroxybenzoyl Hexyl Benzoate | 190 | 1 January 2027 | new restriction starts |
+| Citral | 1,419 | 1 January 2027 | new restriction starts |
+| Diethylamino Hydroxybenzoyl Hexyl Benzoate (DHHB) | 190 | 1 January 2027 | new restriction starts |
 | Pinene | 77 | 1 August 2028 | already in force, sell-through ends |
 | Methyl Salicylate | 56 | 1 August 2028 | already in force, sell-through ends |
 | Retinol | 47 | 1 May 2027 | already in force, sell-through ends |
 | Zinc Acetate | 4 | 1 January 2027 | new restriction starts |
 | Triphenyl Phosphate | 3 | 1 January 2027 | prohibition starts |
-| Geranial | 3 | 1 January 2027 | new restriction starts |
 
-Nine of the register's fourteen substances were seen at least once. The other five
+Eight of the register's fourteen substances were seen at least once. The other six
 appear in no list it read, which is a fact about this corpus and not evidence that
-nothing uses them.
+nothing uses them. Nine distinct register names matched a label, out of the 49
+the register can match. Those two counts answer different questions and the
+measurement script prints both.
 
 **The corpus is not a sample of the EU market.** Open Beauty Facts is a global,
 volunteer-contributed database with a heavy western European skew. It is what was
