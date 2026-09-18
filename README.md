@@ -207,15 +207,12 @@ accepted, and a bad one is recorded as a failure rather than cached.
 
 ## Install
 
-Not published to the package index.
-
 ```bash
-git clone https://github.com/Waiga/on-notice
-cd on-notice
-pip install -e .
+pip install on-notice
 ```
 
-Python 3.9 or later. No dependencies.
+Python 3.9 or later. No dependencies. The register ships inside the package, so
+the tool works offline and nothing about your formulation leaves your machine.
 
 ## Licence
 
