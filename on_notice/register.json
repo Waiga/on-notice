@@ -72,11 +72,13 @@
     "regulations_not_read": 0,
     "dated_provisions_found": 120,
     "substance_links_made": 703,
-    "substance_links_shipped": 36,
+    "substance_links_shipped": 21,
     "provisions_naming_a_category": 2,
-    "provisions_that_are_labelling_duties": 38,
-    "distinct_substances_labelling_only": 38,
-    "distinct_substances_shipped": 29,
+    "provisions_that_are_labelling_duties": 50,
+    "provisions_with_no_restriction_text_recovered": 3,
+    "shipped_entries_already_applying": 7,
+    "distinct_substances_labelling_only": 50,
+    "distinct_substances_shipped": 14,
     "unresolved_provisions_total": 9,
     "unresolved_provisions_shipped": 0,
     "unclassified_sentences": 1,
@@ -115,7 +117,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be placed on the Union market",
       "resolution": "footnote marker (**)",
       "provision": "From 1 January 2027 cosmetic products containing these substances and not complying with the restrictions shall not be placed on the Union market.",
-      "obligation": "use_restriction"
+      "obligation": "use_restriction",
+      "already_applying": false
     },
     {
       "id": "32026R0909:III:379:2028-07-01:making_available",
@@ -148,7 +151,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (**)",
       "provision": "From 1 July 2028 cosmetic products containing these substances and not complying with the restrictions shall not be made available on the Union market.",
-      "obligation": "use_restriction"
+      "obligation": "use_restriction",
+      "already_applying": false
     }
   ],
   "labelling_only": [
@@ -207,7 +211,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*1)",
       "provision": "Cosmetic products containing that substance that do not comply with the restrictions may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:45:2028-08-01:making_available",
@@ -240,7 +245,164 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*2)",
       "provision": "Cosmetic products containing that substance that do not comply with the restrictions may, provided that they comply with the restrictions applicable on 15 August 2023, be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
+    },
+    {
+      "id": "32023R1545:III:109:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "109",
+      "inci_name": "Pinus Mugo Leaf Oil",
+      "chemical_name": "Pinus mugo leaf and twig oil and extract",
+      "names": [
+        {
+          "name": "Pinus Mugo Leaf Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "pinus mugo leaf oil"
+        },
+        {
+          "name": "Pinus Mugo Twig Leaf Extract",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "pinus mugo twig leaf extract"
+        },
+        {
+          "name": "Pinus Mugo Twig Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "pinus mugo twig oil"
+        },
+        {
+          "name": "Pinus mugo leaf and twig oil and extract",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "pinus mugo leaf and twig oil and extract"
+        }
+      ],
+      "row_text": "109 Pinus mugo leaf and twig oil and extract ( *2 ) Pinus Mugo Leaf Oil; Pinus Mugo Twig Leaf Extract; Pinus Mugo Twig Oil 90082-72-7 290-163-6 The presence of the substance or substances shall be indicated as ‘Pinus Mugo’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products. The peroxide value shall be less than 10 mmoles/L (15)",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*2)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restrictions may, provided that they comply with the restrictions applicable on 15 August 2023, be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling",
+      "already_applying": true
+    },
+    {
+      "id": "32023R1545:III:114:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "114",
+      "inci_name": "Pinus Pumila Needle Extract",
+      "chemical_name": "Pinus pumila leaf and twig oil and extract",
+      "names": [
+        {
+          "name": "Pinus Pumila Needle Extract",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "pinus pumila needle extract"
+        },
+        {
+          "name": "Pinus Pumila Twig Leaf Extract",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "pinus pumila twig leaf extract"
+        },
+        {
+          "name": "Pinus Pumila Twig Leaf Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "pinus pumila twig leaf oil"
+        },
+        {
+          "name": "Pinus pumila leaf and twig oil and extract",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "pinus pumila leaf and twig oil and extract"
+        }
+      ],
+      "row_text": "114 Pinus pumila leaf and twig oil and extract ( *2 ) Pinus Pumila Needle Extract; Pinus Pumila Twig Leaf Extract; Pinus Pumila Twig Leaf Oil 97676-05-6 307-681-6 The presence of the substance or substances shall be indicated as ‘Pinus Pumila’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products. The peroxide value shall be less than 10 mmoles/L (15)",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*2)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restrictions may, provided that they comply with the restrictions applicable on 15 August 2023, be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling",
+      "already_applying": true
+    },
+    {
+      "id": "32023R1545:III:122:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "122",
+      "inci_name": "Cedrus Atlantica Bark Extract",
+      "chemical_name": "Cedrus atlantica oil and extract",
+      "names": [
+        {
+          "name": "Cedrus Atlantica Bark Extract",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "cedrus atlantica bark extract"
+        },
+        {
+          "name": "Cedrus Atlantica Bark Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "cedrus atlantica bark oil"
+        },
+        {
+          "name": "Cedrus Atlantica Bark Water",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "cedrus atlantica bark water"
+        },
+        {
+          "name": "Cedrus Atlantica Leaf Extract",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "cedrus atlantica leaf extract"
+        },
+        {
+          "name": "Cedrus Atlantica Wood Extract",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "cedrus atlantica wood extract"
+        },
+        {
+          "name": "Cedrus Atlantica Wood Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "cedrus atlantica wood oil"
+        },
+        {
+          "name": "Cedrus atlantica oil and extract",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "cedrus atlantica oil and extract"
+        }
+      ],
+      "row_text": "122 Cedrus atlantica oil and extract ( *2 ) Cedrus Atlantica Bark Extract; Cedrus Atlantica Bark Oil; Cedrus Atlantica Bark Water; Cedrus Atlantica Leaf Extract; Cedrus Atlantica Wood Extract; Cedrus Atlantica Wood Oil 92201-55-3/ 8023-85-6 295-985-9/ - The presence of the substance or substances shall be indicated as ‘Cedrus Atlantica Oil/ Extract’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products. The peroxide value shall be less than 10 mmoles/L (15)",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*2)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restrictions may, provided that they comply with the restrictions applicable on 15 August 2023, be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:124:2028-08-01:making_available",
@@ -297,7 +459,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*2)",
       "provision": "Cosmetic products containing that substance that do not comply with the restrictions may, provided that they comply with the restrictions applicable on 15 August 2023, be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:131:2028-08-01:making_available",
@@ -330,7 +493,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*2)",
       "provision": "Cosmetic products containing that substance that do not comply with the restrictions may, provided that they comply with the restrictions applicable on 15 August 2023, be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:133:2028-08-01:making_available",
@@ -363,7 +527,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*2)",
       "provision": "Cosmetic products containing that substance that do not comply with the restrictions may, provided that they comply with the restrictions applicable on 15 August 2023, be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:327:2028-08-01:making_available",
@@ -396,7 +561,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:328:2028-08-01:making_available",
@@ -429,7 +595,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:329:2028-08-01:making_available",
@@ -468,7 +635,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:330:2028-08-01:making_available",
@@ -495,7 +663,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:331:2028-08-01:making_available",
@@ -534,7 +703,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:332:2028-08-01:making_available",
@@ -567,7 +737,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:333:2028-08-01:making_available",
@@ -612,7 +783,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:334:2028-08-01:making_available",
@@ -651,7 +823,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:335:2028-08-01:making_available",
@@ -684,7 +857,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:336:2028-08-01:making_available",
@@ -717,7 +891,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:337:2028-08-01:making_available",
@@ -750,7 +925,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:338:2028-08-01:making_available",
@@ -795,7 +971,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:339:2028-08-01:making_available",
@@ -828,7 +1005,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:340:2028-08-01:making_available",
@@ -861,7 +1039,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:341:2028-08-01:making_available",
@@ -912,7 +1091,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:342:2028-08-01:making_available",
@@ -945,7 +1125,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:343:2028-08-01:making_available",
@@ -1014,7 +1195,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:344:2028-08-01:making_available",
@@ -1065,7 +1247,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:345:2028-08-01:making_available",
@@ -1098,7 +1281,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:346:2028-08-01:making_available",
@@ -1131,7 +1315,54 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
+    },
+    {
+      "id": "32023R1545:III:347:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "347",
+      "inci_name": "Cananga Odorata Flower Extract",
+      "chemical_name": "Cananga odorata flower oil and extract",
+      "names": [
+        {
+          "name": "Cananga Odorata Flower Extract",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "cananga odorata flower extract"
+        },
+        {
+          "name": "Cananga Odorata Flower Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "cananga odorata flower oil"
+        },
+        {
+          "name": "Cananga odorata flower oil and extract",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "cananga odorata flower oil and extract"
+        },
+        {
+          "name": "Ylang Ylang flower oil and extract",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "ylang ylang flower oil and extract"
+        }
+      ],
+      "row_text": "347 Cananga odorata flower oil and extract; Ylang Ylang flower oil and extract ( *4 ) Cananga Odorata Flower Extract; Cananga Odorata Flower Oil 83863-30-3/ 8006-81-3/ 68606-83-7/ 93686-30-7 281-092-1/ -/ -/ 297-681-1 The presence of the substance or substances shall be indicated as ‘Cananga Odorata Oil/Extract’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration exceeds of the substance or substances: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:348:2028-08-01:making_available",
@@ -1158,7 +1389,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:349:2028-08-01:making_available",
@@ -1185,7 +1417,76 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
+    },
+    {
+      "id": "32023R1545:III:350:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "350",
+      "inci_name": "Citrus Aurantium Amara Flower Oil",
+      "chemical_name": "Citrus aurantium amara and dulcis flower oil",
+      "names": [
+        {
+          "name": "Citrus Aurantium Amara Flower Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "citrus aurantium amara flower oil"
+        },
+        {
+          "name": "Citrus aurantium amara and dulcis flower oil",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "citrus aurantium amara and dulcis flower oil"
+        }
+      ],
+      "row_text": "350 Citrus aurantium amara and dulcis flower oil ( *4 ) Citrus Aurantium Amara Flower Oil 72968-50-4 277-143-2 The presence of the substance or substances shall be indicated as ‘Citrus Aurantium Flower Oil’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling",
+      "already_applying": true
+    },
+    {
+      "id": "32023R1545:III:351:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "351",
+      "inci_name": "Citrus Aurantium Amara Peel Oil",
+      "chemical_name": "Citrus aurantium amara and dulcis peel oil",
+      "names": [
+        {
+          "name": "Citrus Aurantium Amara Peel Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "citrus aurantium amara peel oil"
+        },
+        {
+          "name": "Citrus aurantium amara and dulcis peel oil",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "citrus aurantium amara and dulcis peel oil"
+        }
+      ],
+      "row_text": "351 Citrus aurantium amara and dulcis peel oil ( *4 ) Citrus Aurantium Amara Peel Oil 68916-04-1/ 72968-50-4 -/ 277-143-2 The presence of the substance or substances shall be indicated as ‘Citrus Aurantium Peel Oil’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:352:2028-08-01:making_available",
@@ -1224,7 +1525,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:353:2028-08-01:making_available",
@@ -1257,7 +1559,190 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
+    },
+    {
+      "id": "32023R1545:III:354:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "354",
+      "inci_name": "Cymbopogon Schoenanthus Oil",
+      "chemical_name": "Cymbopogon citratus / schoenanthus/flexuosus oils",
+      "names": [
+        {
+          "name": "Cymbopogon Schoenanthus Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "cymbopogon schoenanthus oil"
+        },
+        {
+          "name": "Cymbopogon citratus / schoenanthus/flexuosus oils",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "cymbopogon citratus schoenanthus flexuosus oils"
+        }
+      ],
+      "row_text": "354 Cymbopogon citratus / schoenanthus/flexuosus oils ( *4 ) Cymbopogon Schoenanthus Oil 8007-02-1/ 89998-16-3 -/ 289-754-1 The presence of the substance or substances shall be indicated as ‘Lemongrass Oil’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling",
+      "already_applying": true
+    },
+    {
+      "id": "32023R1545:III:355:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "355",
+      "inci_name": "Eucalyptus Globulus Leaf Oil",
+      "chemical_name": "Eucalyptus globulus oil",
+      "names": [
+        {
+          "name": "Eucalyptus Globulus Leaf Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "eucalyptus globulus leaf oil"
+        },
+        {
+          "name": "Eucalyptus globulus oil",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "eucalyptus globulus oil"
+        }
+      ],
+      "row_text": "355 Eucalyptus globulus oil ( *4 ) Eucalyptus Globulus Leaf Oil; 97926-40-4/ 8000-48-4/ 308-257-3/ 616-775-9/ The presence of the substance or substances shall be indicated as ‘Eucalyptus Globulus Oil’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling",
+      "already_applying": true
+    },
+    {
+      "id": "32023R1545:III:356:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "356",
+      "inci_name": "Eugenia Caryophyllus Leaf Oil",
+      "chemical_name": "Eugenia caryophyllus oil",
+      "names": [
+        {
+          "name": "Eugenia Caryophyllus Leaf Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "eugenia caryophyllus leaf oil"
+        },
+        {
+          "name": "Eugenia caryophyllus oil",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "eugenia caryophyllus oil"
+        }
+      ],
+      "row_text": "356 Eugenia caryophyllus oil ( *4 ) Eugenia Caryophyllus Leaf Oil 8000-34-8 / 8015-97-2/ 84961-50-2 616-772-2/ -/ 284-638-7 The presence of the substance or substances shall be indicated as ‘Eugenia Caryophyllus Oil’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling",
+      "already_applying": true
+    },
+    {
+      "id": "32023R1545:III:357:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "357",
+      "inci_name": "Jasminum Grandiflorum Flower Extract",
+      "chemical_name": "Jasminum grandiflorum / officinale oil and extract",
+      "names": [
+        {
+          "name": "Jasminum Grandiflorum Flower Extract",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "jasminum grandiflorum flower extract"
+        },
+        {
+          "name": "Jasminum Officinale Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "jasminum officinale oil"
+        },
+        {
+          "name": "Jasminum Officinale Flower Extract",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "jasminum officinale flower extract"
+        },
+        {
+          "name": "Jasminum grandiflorum / officinale oil and extract",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "jasminum grandiflorum officinale oil and extract"
+        }
+      ],
+      "row_text": "357 Jasminum grandiflorum / officinale oil and extract ( *4 ) Jasminum Grandiflorum Flower Extract; Jasminum Officinale Oil; Jasminum Officinale Flower Extract 84776-64-7/ 90045-94-6/ 8022-96-6/ 8024-43-9 90045-94-6 283-993-5/ 289-960-1/ -/ - 289-960-1 The presence of the substance or substances shall be indicated as ‘Jasmine Oil/Extract’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling",
+      "already_applying": true
+    },
+    {
+      "id": "32023R1545:III:358:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "358",
+      "inci_name": "Juniperus Virginiana Oil",
+      "chemical_name": "Juniperus virginiana oil",
+      "names": [
+        {
+          "name": "Juniperus Virginiana Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "juniperus virginiana oil"
+        },
+        {
+          "name": "Juniperus Virginiana Wood Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "juniperus virginiana wood oil"
+        }
+      ],
+      "row_text": "358 Juniperus virginiana oil ( *4 ) Juniperus Virginiana Oil; Juniperus Virginiana Wood Oil 8000-27-9 / 85085-41-2 -/ 285-370-3 The presence of the substance or substances shall be indicated as ‘Juniperus Virginiana Oil’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:359:2028-08-01:making_available",
@@ -1290,7 +1775,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:361:2028-08-01:making_available",
@@ -1317,7 +1803,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:362:2028-08-01:making_available",
@@ -1356,7 +1843,42 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
+    },
+    {
+      "id": "32023R1545:III:363:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "363",
+      "inci_name": "Narcissus Poeticus Extract",
+      "chemical_name": "Narcissus poeticus/pseudonarcissus/jonquilla/tazetta extract",
+      "names": [
+        {
+          "name": "Narcissus Poeticus Extract",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "narcissus poeticus extract"
+        },
+        {
+          "name": "Narcissus poeticus/pseudonarcissus/jonquilla/tazetta extract",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "narcissus poeticus pseudonarcissus jonquilla tazetta extract"
+        }
+      ],
+      "row_text": "363 Narcissus poeticus/pseudonarcissus/jonquilla/tazetta extract ( *4 ) Narcissus Poeticus Extract 90064-26-9/ 68917-12-4 290-087-3/ - The presence of the substance or substances shall be indicated as ‘Narcissus Extract’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:364:2028-08-01:making_available",
@@ -1389,7 +1911,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:365:2028-08-01:making_available",
@@ -1416,7 +1939,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:367:2028-08-01:making_available",
@@ -1443,7 +1967,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:368:2028-08-01:making_available",
@@ -1476,7 +2001,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:369:2028-08-01:making_available",
@@ -1509,7 +2035,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:370:2028-08-01:making_available",
@@ -1542,7 +2069,112 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "labelling"
+      "obligation": "labelling",
+      "already_applying": true
+    }
+  ],
+  "restriction_text_not_recovered": [
+    {
+      "id": "32023R1545:III:70:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "70",
+      "inci_name": "Geranial",
+      "chemical_name": "(E)-3,7-dimethylocta-2,6-dienal",
+      "names": [
+        {
+          "name": "Geranial",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "geranial"
+        },
+        {
+          "name": "(E)-3,7-dimethylocta-2,6-dienal",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "e 3 7 dimethylocta 2 6 dienal"
+        }
+      ],
+      "row_text": "(E)-3,7-dimethylocta-2,6-dienal ( *1 ) Geranial 141-27-5 205-476-5",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*1)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restrictions may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "restriction_text_not_recovered",
+      "already_applying": true
+    },
+    {
+      "id": "32023R1545:III:360:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "360",
+      "inci_name": "Lavandula Angustifolia Oil",
+      "chemical_name": "Lavandula angustifolia oil/extract",
+      "names": [
+        {
+          "name": "Lavandula Angustifolia Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "lavandula angustifolia oil"
+        },
+        {
+          "name": "Lavandula Angustifolia Flower/Leaf/Stem Extract",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "lavandula angustifolia flower leaf stem extract"
+        },
+        {
+          "name": "Lavandula angustifolia oil/extract",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "lavandula angustifolia oil extract"
+        }
+      ],
+      "row_text": "Lavandula angustifolia oil/extract ( *4 ) Lavandula Angustifolia Oil; Lavandula Angustifolia Flower/Leaf/Stem Extract 84776-65-8/ 8000-28-0/ 90063-37-9 283-994-0/ -/ 289-995-2",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "restriction_text_not_recovered",
+      "already_applying": true
+    },
+    {
+      "id": "32023R1545:III:366:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "366",
+      "inci_name": "Rosa Rugosa Flower Oil",
+      "chemical_name": "Rosa rugosa flower oil",
+      "names": [
+        {
+          "name": "Rosa Rugosa Flower Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "rosa rugosa flower oil"
+        }
+      ],
+      "row_text": "Rosa rugosa flower oil ( *4 ) Rosa Rugosa Flower Oil 92347-25-6 296-213-3",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "restriction_text_not_recovered",
+      "already_applying": true
     }
   ],
   "unresolved": [],
@@ -2121,7 +2753,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be placed on the Union market",
       "resolution": "footnote marker (**)",
       "provision": "From 1 January 2027 cosmetic products containing these substances and not complying with the restrictions shall not be placed on the Union market.",
-      "obligation": "use_restriction"
+      "obligation": "use_restriction",
+      "already_applying": false
     },
     {
       "id": "32026R0909:III:75:2027-01-01:placing",
@@ -2154,7 +2787,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be placed on the Union market",
       "resolution": "footnote marker (**)",
       "provision": "From 1 January 2027 cosmetic products containing these substances and not complying with the restrictions shall not be placed on the Union market.",
-      "obligation": "use_restriction"
+      "obligation": "use_restriction",
+      "already_applying": false
     },
     {
       "id": "32026R0909:III:70:2027-01-01:placing",
@@ -2205,7 +2839,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be placed on the Union market",
       "resolution": "footnote marker (**)",
       "provision": "From 1 January 2027 cosmetic products containing these substances and not complying with the restrictions shall not be placed on the Union market.",
-      "obligation": "use_restriction"
+      "obligation": "use_restriction",
+      "already_applying": false
     },
     {
       "id": "32026R0909:VI:28:2027-01-01:placing",
@@ -2250,7 +2885,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be placed on the Union market",
       "resolution": "footnote marker (****)",
       "provision": "From 1 January 2027 cosmetic products containing ‘Benzoic acid, 2-[4-(diethylamino)-2-hydroxybenzoyl]-, hexyl ester’ and not complying with the conditions shall not be placed on the Union market.",
-      "obligation": "use_restriction"
+      "obligation": "use_restriction",
+      "already_applying": false
     },
     {
       "id": "32026R0909:II:1752:2027-01-01:placing",
@@ -2277,7 +2913,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be placed on the Union market",
       "resolution": "footnote marker (*)",
       "provision": "From 1 January 2027 cosmetic products containing Triphenyl Phosphate and not complying with the restrictions shall not be placed on the Union market.",
-      "obligation": "use_restriction"
+      "obligation": "use_restriction",
+      "already_applying": false
     },
     {
       "id": "32026R0909:III:24:2027-01-01:placing",
@@ -2316,7 +2953,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be placed on the Union market",
       "resolution": "footnote marker (**)",
       "provision": "From 1 January 2027 cosmetic products containing these substances and not complying with the restrictions shall not be placed on the Union market.",
-      "obligation": "use_restriction"
+      "obligation": "use_restriction",
+      "already_applying": false
     },
     {
       "id": "32024R0996:III:376:2027-05-01:making_available",
@@ -2349,7 +2987,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*3)",
       "provision": "From 1 May 2027 cosmetic products containing that substance and not complying with the conditions shall not be made available on the Union market.",
-      "obligation": "use_restriction"
+      "obligation": "use_restriction",
+      "already_applying": false
     },
     {
       "id": "32026R0909:III:380:2028-07-01:making_available",
@@ -2394,7 +3033,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (**)",
       "provision": "From 1 July 2028 cosmetic products containing these substances and not complying with the restrictions shall not be made available on the Union market.",
-      "obligation": "use_restriction"
+      "obligation": "use_restriction",
+      "already_applying": false
     },
     {
       "id": "32026R0909:III:75:2028-07-01:making_available",
@@ -2427,7 +3067,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (**)",
       "provision": "From 1 July 2028 cosmetic products containing these substances and not complying with the restrictions shall not be made available on the Union market.",
-      "obligation": "use_restriction"
+      "obligation": "use_restriction",
+      "already_applying": false
     },
     {
       "id": "32026R0909:III:70:2028-07-01:making_available",
@@ -2478,7 +3119,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (**)",
       "provision": "From 1 July 2028 cosmetic products containing these substances and not complying with the restrictions shall not be made available on the Union market.",
-      "obligation": "use_restriction"
+      "obligation": "use_restriction",
+      "already_applying": false
     },
     {
       "id": "32026R0909:VI:28:2028-07-01:making_available",
@@ -2523,7 +3165,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (****)",
       "provision": "From 1 July 2028 cosmetic products containing ‘Benzoic acid, 2-[4-(diethylamino)-2-hydroxybenzoyl]-, hexyl ester’ and not complying with the conditions shall not be made available on the Union market.",
-      "obligation": "use_restriction"
+      "obligation": "use_restriction",
+      "already_applying": false
     },
     {
       "id": "32026R0909:II:1752:2028-07-01:making_available",
@@ -2550,7 +3193,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*)",
       "provision": "From 1 July 2028 cosmetic products containing Triphenyl Phosphate and not complying with the restrictions shall not be made available on the Union market.",
-      "obligation": "use_restriction"
+      "obligation": "use_restriction",
+      "already_applying": false
     },
     {
       "id": "32026R0909:III:24:2028-07-01:making_available",
@@ -2589,7 +3233,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (**)",
       "provision": "From 1 July 2028 cosmetic products containing these substances and not complying with the restrictions shall not be made available on the Union market.",
-      "obligation": "use_restriction"
+      "obligation": "use_restriction",
+      "already_applying": false
     },
     {
       "id": "32023R1545:III:175:2028-08-01:making_available",
@@ -2622,7 +3267,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*2)",
       "provision": "Cosmetic products containing that substance that do not comply with the restrictions may, provided that they comply with the restrictions applicable on 15 August 2023, be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "use_restriction"
+      "obligation": "use_restriction",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:46:2028-08-01:making_available",
@@ -2655,7 +3301,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*2)",
       "provision": "Cosmetic products containing that substance that do not comply with the restrictions may, provided that they comply with the restrictions applicable on 15 August 2023, be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "use_restriction"
+      "obligation": "use_restriction",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:157:2028-08-01:making_available",
@@ -2690,12 +3337,6 @@
           "source": "chemical_name",
           "form": "without the bracketed suffix",
           "key": "1 2 6 6 trimethyl 2 cyclohexen 1 yl 2 buten 1 one"
-        },
-        {
-          "name": "16",
-          "source": "chemical_name",
-          "form": "bracketed short form",
-          "key": "16"
         }
       ],
       "row_text": "157 1-(2,6,6-trimethyl-2-cyclohexen-1-yl)-2-buten-1-one (16) ( *2 ) Alpha-Damascone; cis-Rose ketone 1 43052-87-5/ 23726-94-5 -/ 245-845-8 (a) Oral products (b) Other products (b) 0,02 % (a) (b) The presence of the substance or substances shall be indicated as ‘Rose Ketones’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
@@ -2706,115 +3347,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*2)",
       "provision": "Cosmetic products containing that substance that do not comply with the restrictions may, provided that they comply with the restrictions applicable on 15 August 2023, be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "use_restriction"
-    },
-    {
-      "id": "32023R1545:III:347:2028-08-01:making_available",
-      "celex": "32023R1545",
-      "table_layout": "column headings",
-      "regulation": "Commission Regulation (EU) 2023/1545",
-      "annex": "III",
-      "entry_reference": "347",
-      "inci_name": "Cananga Odorata Flower Extract",
-      "chemical_name": "Cananga odorata flower oil and extract",
-      "names": [
-        {
-          "name": "Cananga Odorata Flower Extract",
-          "source": "inci_glossary",
-          "form": "as written",
-          "key": "cananga odorata flower extract"
-        },
-        {
-          "name": "Cananga Odorata Flower Oil",
-          "source": "inci_glossary",
-          "form": "as written",
-          "key": "cananga odorata flower oil"
-        },
-        {
-          "name": "Cananga odorata flower oil and extract",
-          "source": "chemical_name",
-          "form": "as written",
-          "key": "cananga odorata flower oil and extract"
-        },
-        {
-          "name": "Ylang Ylang flower oil and extract",
-          "source": "chemical_name",
-          "form": "as written",
-          "key": "ylang ylang flower oil and extract"
-        }
-      ],
-      "row_text": "347 Cananga odorata flower oil and extract; Ylang Ylang flower oil and extract ( *4 ) Cananga Odorata Flower Extract; Cananga Odorata Flower Oil 83863-30-3/ 8006-81-3/ 68606-83-7/ 93686-30-7 281-092-1/ -/ -/ 297-681-1 The presence of the substance or substances shall be indicated as ‘Cananga Odorata Oil/Extract’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration exceeds of the substance or substances: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
-      "date": "2028-08-01",
-      "stated_date": "2028-07-31",
-      "basis": "until",
-      "restriction": "making_available",
-      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
-      "resolution": "footnote marker (*4)",
-      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "use_restriction"
-    },
-    {
-      "id": "32023R1545:III:122:2028-08-01:making_available",
-      "celex": "32023R1545",
-      "table_layout": "column headings",
-      "regulation": "Commission Regulation (EU) 2023/1545",
-      "annex": "III",
-      "entry_reference": "122",
-      "inci_name": "Cedrus Atlantica Bark Extract",
-      "chemical_name": "Cedrus atlantica oil and extract",
-      "names": [
-        {
-          "name": "Cedrus Atlantica Bark Extract",
-          "source": "inci_glossary",
-          "form": "as written",
-          "key": "cedrus atlantica bark extract"
-        },
-        {
-          "name": "Cedrus Atlantica Bark Oil",
-          "source": "inci_glossary",
-          "form": "as written",
-          "key": "cedrus atlantica bark oil"
-        },
-        {
-          "name": "Cedrus Atlantica Bark Water",
-          "source": "inci_glossary",
-          "form": "as written",
-          "key": "cedrus atlantica bark water"
-        },
-        {
-          "name": "Cedrus Atlantica Leaf Extract",
-          "source": "inci_glossary",
-          "form": "as written",
-          "key": "cedrus atlantica leaf extract"
-        },
-        {
-          "name": "Cedrus Atlantica Wood Extract",
-          "source": "inci_glossary",
-          "form": "as written",
-          "key": "cedrus atlantica wood extract"
-        },
-        {
-          "name": "Cedrus Atlantica Wood Oil",
-          "source": "inci_glossary",
-          "form": "as written",
-          "key": "cedrus atlantica wood oil"
-        },
-        {
-          "name": "Cedrus atlantica oil and extract",
-          "source": "chemical_name",
-          "form": "as written",
-          "key": "cedrus atlantica oil and extract"
-        }
-      ],
-      "row_text": "122 Cedrus atlantica oil and extract ( *2 ) Cedrus Atlantica Bark Extract; Cedrus Atlantica Bark Oil; Cedrus Atlantica Bark Water; Cedrus Atlantica Leaf Extract; Cedrus Atlantica Wood Extract; Cedrus Atlantica Wood Oil 92201-55-3/ 8023-85-6 295-985-9/ - The presence of the substance or substances shall be indicated as ‘Cedrus Atlantica Oil/ Extract’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products. The peroxide value shall be less than 10 mmoles/L (15)",
-      "date": "2028-08-01",
-      "stated_date": "2028-07-31",
-      "basis": "until",
-      "restriction": "making_available",
-      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
-      "resolution": "footnote marker (*2)",
-      "provision": "Cosmetic products containing that substance that do not comply with the restrictions may, provided that they comply with the restrictions applicable on 15 August 2023, be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "use_restriction"
+      "obligation": "use_restriction",
+      "already_applying": true
     },
     {
       "id": "32026R0909:III:70:2028-08-01:making_available",
@@ -2865,322 +3399,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (***)",
       "provision": "From 1 August 2028 cosmetic products containing these substances and not complying with the restrictions shall not be made available on the Union market.",
-      "obligation": "use_restriction"
-    },
-    {
-      "id": "32023R1545:III:350:2028-08-01:making_available",
-      "celex": "32023R1545",
-      "table_layout": "column headings",
-      "regulation": "Commission Regulation (EU) 2023/1545",
-      "annex": "III",
-      "entry_reference": "350",
-      "inci_name": "Citrus Aurantium Amara Flower Oil",
-      "chemical_name": "Citrus aurantium amara and dulcis flower oil",
-      "names": [
-        {
-          "name": "Citrus Aurantium Amara Flower Oil",
-          "source": "inci_glossary",
-          "form": "as written",
-          "key": "citrus aurantium amara flower oil"
-        },
-        {
-          "name": "Citrus aurantium amara and dulcis flower oil",
-          "source": "chemical_name",
-          "form": "as written",
-          "key": "citrus aurantium amara and dulcis flower oil"
-        }
-      ],
-      "row_text": "350 Citrus aurantium amara and dulcis flower oil ( *4 ) Citrus Aurantium Amara Flower Oil 72968-50-4 277-143-2 The presence of the substance or substances shall be indicated as ‘Citrus Aurantium Flower Oil’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
-      "date": "2028-08-01",
-      "stated_date": "2028-07-31",
-      "basis": "until",
-      "restriction": "making_available",
-      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
-      "resolution": "footnote marker (*4)",
-      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "use_restriction"
-    },
-    {
-      "id": "32023R1545:III:351:2028-08-01:making_available",
-      "celex": "32023R1545",
-      "table_layout": "column headings",
-      "regulation": "Commission Regulation (EU) 2023/1545",
-      "annex": "III",
-      "entry_reference": "351",
-      "inci_name": "Citrus Aurantium Amara Peel Oil",
-      "chemical_name": "Citrus aurantium amara and dulcis peel oil",
-      "names": [
-        {
-          "name": "Citrus Aurantium Amara Peel Oil",
-          "source": "inci_glossary",
-          "form": "as written",
-          "key": "citrus aurantium amara peel oil"
-        },
-        {
-          "name": "Citrus aurantium amara and dulcis peel oil",
-          "source": "chemical_name",
-          "form": "as written",
-          "key": "citrus aurantium amara and dulcis peel oil"
-        }
-      ],
-      "row_text": "351 Citrus aurantium amara and dulcis peel oil ( *4 ) Citrus Aurantium Amara Peel Oil 68916-04-1/ 72968-50-4 -/ 277-143-2 The presence of the substance or substances shall be indicated as ‘Citrus Aurantium Peel Oil’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
-      "date": "2028-08-01",
-      "stated_date": "2028-07-31",
-      "basis": "until",
-      "restriction": "making_available",
-      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
-      "resolution": "footnote marker (*4)",
-      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "use_restriction"
-    },
-    {
-      "id": "32023R1545:III:354:2028-08-01:making_available",
-      "celex": "32023R1545",
-      "table_layout": "column headings",
-      "regulation": "Commission Regulation (EU) 2023/1545",
-      "annex": "III",
-      "entry_reference": "354",
-      "inci_name": "Cymbopogon Schoenanthus Oil",
-      "chemical_name": "Cymbopogon citratus / schoenanthus/flexuosus oils",
-      "names": [
-        {
-          "name": "Cymbopogon Schoenanthus Oil",
-          "source": "inci_glossary",
-          "form": "as written",
-          "key": "cymbopogon schoenanthus oil"
-        },
-        {
-          "name": "Cymbopogon citratus / schoenanthus/flexuosus oils",
-          "source": "chemical_name",
-          "form": "as written",
-          "key": "cymbopogon citratus schoenanthus flexuosus oils"
-        }
-      ],
-      "row_text": "354 Cymbopogon citratus / schoenanthus/flexuosus oils ( *4 ) Cymbopogon Schoenanthus Oil 8007-02-1/ 89998-16-3 -/ 289-754-1 The presence of the substance or substances shall be indicated as ‘Lemongrass Oil’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
-      "date": "2028-08-01",
-      "stated_date": "2028-07-31",
-      "basis": "until",
-      "restriction": "making_available",
-      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
-      "resolution": "footnote marker (*4)",
-      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "use_restriction"
-    },
-    {
-      "id": "32023R1545:III:355:2028-08-01:making_available",
-      "celex": "32023R1545",
-      "table_layout": "column headings",
-      "regulation": "Commission Regulation (EU) 2023/1545",
-      "annex": "III",
-      "entry_reference": "355",
-      "inci_name": "Eucalyptus Globulus Leaf Oil",
-      "chemical_name": "Eucalyptus globulus oil",
-      "names": [
-        {
-          "name": "Eucalyptus Globulus Leaf Oil",
-          "source": "inci_glossary",
-          "form": "as written",
-          "key": "eucalyptus globulus leaf oil"
-        },
-        {
-          "name": "Eucalyptus globulus oil",
-          "source": "chemical_name",
-          "form": "as written",
-          "key": "eucalyptus globulus oil"
-        }
-      ],
-      "row_text": "355 Eucalyptus globulus oil ( *4 ) Eucalyptus Globulus Leaf Oil; 97926-40-4/ 8000-48-4/ 308-257-3/ 616-775-9/ The presence of the substance or substances shall be indicated as ‘Eucalyptus Globulus Oil’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
-      "date": "2028-08-01",
-      "stated_date": "2028-07-31",
-      "basis": "until",
-      "restriction": "making_available",
-      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
-      "resolution": "footnote marker (*4)",
-      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "use_restriction"
-    },
-    {
-      "id": "32023R1545:III:356:2028-08-01:making_available",
-      "celex": "32023R1545",
-      "table_layout": "column headings",
-      "regulation": "Commission Regulation (EU) 2023/1545",
-      "annex": "III",
-      "entry_reference": "356",
-      "inci_name": "Eugenia Caryophyllus Leaf Oil",
-      "chemical_name": "Eugenia caryophyllus oil",
-      "names": [
-        {
-          "name": "Eugenia Caryophyllus Leaf Oil",
-          "source": "inci_glossary",
-          "form": "as written",
-          "key": "eugenia caryophyllus leaf oil"
-        },
-        {
-          "name": "Eugenia caryophyllus oil",
-          "source": "chemical_name",
-          "form": "as written",
-          "key": "eugenia caryophyllus oil"
-        }
-      ],
-      "row_text": "356 Eugenia caryophyllus oil ( *4 ) Eugenia Caryophyllus Leaf Oil 8000-34-8 / 8015-97-2/ 84961-50-2 616-772-2/ -/ 284-638-7 The presence of the substance or substances shall be indicated as ‘Eugenia Caryophyllus Oil’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
-      "date": "2028-08-01",
-      "stated_date": "2028-07-31",
-      "basis": "until",
-      "restriction": "making_available",
-      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
-      "resolution": "footnote marker (*4)",
-      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "use_restriction"
-    },
-    {
-      "id": "32023R1545:III:70:2028-08-01:making_available",
-      "celex": "32023R1545",
-      "table_layout": "column headings",
-      "regulation": "Commission Regulation (EU) 2023/1545",
-      "annex": "III",
-      "entry_reference": "70",
-      "inci_name": "Geranial",
-      "chemical_name": "(E)-3,7-dimethylocta-2,6-dienal",
-      "names": [
-        {
-          "name": "Geranial",
-          "source": "inci_glossary",
-          "form": "as written",
-          "key": "geranial"
-        },
-        {
-          "name": "(E)-3,7-dimethylocta-2,6-dienal",
-          "source": "chemical_name",
-          "form": "as written",
-          "key": "e 3 7 dimethylocta 2 6 dienal"
-        }
-      ],
-      "row_text": "(E)-3,7-dimethylocta-2,6-dienal ( *1 ) Geranial 141-27-5 205-476-5",
-      "date": "2028-08-01",
-      "stated_date": "2028-07-31",
-      "basis": "until",
-      "restriction": "making_available",
-      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
-      "resolution": "footnote marker (*1)",
-      "provision": "Cosmetic products containing that substance that do not comply with the restrictions may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "use_restriction"
-    },
-    {
-      "id": "32023R1545:III:357:2028-08-01:making_available",
-      "celex": "32023R1545",
-      "table_layout": "column headings",
-      "regulation": "Commission Regulation (EU) 2023/1545",
-      "annex": "III",
-      "entry_reference": "357",
-      "inci_name": "Jasminum Grandiflorum Flower Extract",
-      "chemical_name": "Jasminum grandiflorum / officinale oil and extract",
-      "names": [
-        {
-          "name": "Jasminum Grandiflorum Flower Extract",
-          "source": "inci_glossary",
-          "form": "as written",
-          "key": "jasminum grandiflorum flower extract"
-        },
-        {
-          "name": "Jasminum Officinale Oil",
-          "source": "inci_glossary",
-          "form": "as written",
-          "key": "jasminum officinale oil"
-        },
-        {
-          "name": "Jasminum Officinale Flower Extract",
-          "source": "inci_glossary",
-          "form": "as written",
-          "key": "jasminum officinale flower extract"
-        },
-        {
-          "name": "Jasminum grandiflorum / officinale oil and extract",
-          "source": "chemical_name",
-          "form": "as written",
-          "key": "jasminum grandiflorum officinale oil and extract"
-        }
-      ],
-      "row_text": "357 Jasminum grandiflorum / officinale oil and extract ( *4 ) Jasminum Grandiflorum Flower Extract; Jasminum Officinale Oil; Jasminum Officinale Flower Extract 84776-64-7/ 90045-94-6/ 8022-96-6/ 8024-43-9 90045-94-6 283-993-5/ 289-960-1/ -/ - 289-960-1 The presence of the substance or substances shall be indicated as ‘Jasmine Oil/Extract’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products",
-      "date": "2028-08-01",
-      "stated_date": "2028-07-31",
-      "basis": "until",
-      "restriction": "making_available",
-      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
-      "resolution": "footnote marker (*4)",
-      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "use_restriction"
-    },
-    {
-      "id": "32023R1545:III:358:2028-08-01:making_available",
-      "celex": "32023R1545",
-      "table_layout": "column headings",
-      "regulation": "Commission Regulation (EU) 2023/1545",
-      "annex": "III",
-      "entry_reference": "358",
-      "inci_name": "Juniperus Virginiana Oil",
-      "chemical_name": "Juniperus virginiana oil",
-      "names": [
-        {
-          "name": "Juniperus Virginiana Oil",
-          "source": "inci_glossary",
-          "form": "as written",
-          "key": "juniperus virginiana oil"
-        },
-        {
-          "name": "Juniperus Virginiana Wood Oil",
-          "source": "inci_glossary",
-          "form": "as written",
-          "key": "juniperus virginiana wood oil"
-        }
-      ],
-      "row_text": "358 Juniperus virginiana oil ( *4 ) Juniperus Virginiana Oil; Juniperus Virginiana Wood Oil 8000-27-9 / 85085-41-2 -/ 285-370-3 The presence of the substance or substances shall be indicated as ‘Juniperus Virginiana Oil’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
-      "date": "2028-08-01",
-      "stated_date": "2028-07-31",
-      "basis": "until",
-      "restriction": "making_available",
-      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
-      "resolution": "footnote marker (*4)",
-      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "use_restriction"
-    },
-    {
-      "id": "32023R1545:III:360:2028-08-01:making_available",
-      "celex": "32023R1545",
-      "table_layout": "column headings",
-      "regulation": "Commission Regulation (EU) 2023/1545",
-      "annex": "III",
-      "entry_reference": "360",
-      "inci_name": "Lavandula Angustifolia Oil",
-      "chemical_name": "Lavandula angustifolia oil/extract",
-      "names": [
-        {
-          "name": "Lavandula Angustifolia Oil",
-          "source": "inci_glossary",
-          "form": "as written",
-          "key": "lavandula angustifolia oil"
-        },
-        {
-          "name": "Lavandula Angustifolia Flower/Leaf/Stem Extract",
-          "source": "inci_glossary",
-          "form": "as written",
-          "key": "lavandula angustifolia flower leaf stem extract"
-        },
-        {
-          "name": "Lavandula angustifolia oil/extract",
-          "source": "chemical_name",
-          "form": "as written",
-          "key": "lavandula angustifolia oil extract"
-        }
-      ],
-      "row_text": "Lavandula angustifolia oil/extract ( *4 ) Lavandula Angustifolia Oil; Lavandula Angustifolia Flower/Leaf/Stem Extract 84776-65-8/ 8000-28-0/ 90063-37-9 283-994-0/ -/ 289-995-2",
-      "date": "2028-08-01",
-      "stated_date": "2028-07-31",
-      "basis": "until",
-      "restriction": "making_available",
-      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
-      "resolution": "footnote marker (*4)",
-      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "use_restriction"
+      "obligation": "use_restriction",
+      "already_applying": false
     },
     {
       "id": "32023R1545:III:196:2028-08-01:making_available",
@@ -3213,7 +3433,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*2)",
       "provision": "Cosmetic products containing that substance that do not comply with the restrictions may, provided that they comply with the restrictions applicable on 15 August 2023, be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "use_restriction"
+      "obligation": "use_restriction",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:324:2028-08-01:making_available",
@@ -3246,7 +3467,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*2)",
       "provision": "Cosmetic products containing that substance that do not comply with the restrictions may, provided that they comply with the restrictions applicable on 15 August 2023, be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "use_restriction"
+      "obligation": "use_restriction",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:154:2028-08-01:making_available",
@@ -3321,40 +3543,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*2)",
       "provision": "Cosmetic products containing that substance that do not comply with the restrictions may, provided that they comply with the restrictions applicable on 15 August 2023, be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "use_restriction"
-    },
-    {
-      "id": "32023R1545:III:363:2028-08-01:making_available",
-      "celex": "32023R1545",
-      "table_layout": "column headings",
-      "regulation": "Commission Regulation (EU) 2023/1545",
-      "annex": "III",
-      "entry_reference": "363",
-      "inci_name": "Narcissus Poeticus Extract",
-      "chemical_name": "Narcissus poeticus/pseudonarcissus/jonquilla/tazetta extract",
-      "names": [
-        {
-          "name": "Narcissus Poeticus Extract",
-          "source": "inci_glossary",
-          "form": "as written",
-          "key": "narcissus poeticus extract"
-        },
-        {
-          "name": "Narcissus poeticus/pseudonarcissus/jonquilla/tazetta extract",
-          "source": "chemical_name",
-          "form": "as written",
-          "key": "narcissus poeticus pseudonarcissus jonquilla tazetta extract"
-        }
-      ],
-      "row_text": "363 Narcissus poeticus/pseudonarcissus/jonquilla/tazetta extract ( *4 ) Narcissus Poeticus Extract 90064-26-9/ 68917-12-4 290-087-3/ - The presence of the substance or substances shall be indicated as ‘Narcissus Extract’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
-      "date": "2028-08-01",
-      "stated_date": "2028-07-31",
-      "basis": "until",
-      "restriction": "making_available",
-      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
-      "resolution": "footnote marker (*4)",
-      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "use_restriction"
+      "obligation": "use_restriction",
+      "already_applying": true
     },
     {
       "id": "32023R1545:III:371:2028-08-01:making_available",
@@ -3417,124 +3607,8 @@
       "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
       "resolution": "footnote marker (*4)",
       "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "use_restriction"
-    },
-    {
-      "id": "32023R1545:III:109:2028-08-01:making_available",
-      "celex": "32023R1545",
-      "table_layout": "column headings",
-      "regulation": "Commission Regulation (EU) 2023/1545",
-      "annex": "III",
-      "entry_reference": "109",
-      "inci_name": "Pinus Mugo Leaf Oil",
-      "chemical_name": "Pinus mugo leaf and twig oil and extract",
-      "names": [
-        {
-          "name": "Pinus Mugo Leaf Oil",
-          "source": "inci_glossary",
-          "form": "as written",
-          "key": "pinus mugo leaf oil"
-        },
-        {
-          "name": "Pinus Mugo Twig Leaf Extract",
-          "source": "inci_glossary",
-          "form": "as written",
-          "key": "pinus mugo twig leaf extract"
-        },
-        {
-          "name": "Pinus Mugo Twig Oil",
-          "source": "inci_glossary",
-          "form": "as written",
-          "key": "pinus mugo twig oil"
-        },
-        {
-          "name": "Pinus mugo leaf and twig oil and extract",
-          "source": "chemical_name",
-          "form": "as written",
-          "key": "pinus mugo leaf and twig oil and extract"
-        }
-      ],
-      "row_text": "109 Pinus mugo leaf and twig oil and extract ( *2 ) Pinus Mugo Leaf Oil; Pinus Mugo Twig Leaf Extract; Pinus Mugo Twig Oil 90082-72-7 290-163-6 The presence of the substance or substances shall be indicated as ‘Pinus Mugo’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products. The peroxide value shall be less than 10 mmoles/L (15)",
-      "date": "2028-08-01",
-      "stated_date": "2028-07-31",
-      "basis": "until",
-      "restriction": "making_available",
-      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
-      "resolution": "footnote marker (*2)",
-      "provision": "Cosmetic products containing that substance that do not comply with the restrictions may, provided that they comply with the restrictions applicable on 15 August 2023, be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "use_restriction"
-    },
-    {
-      "id": "32023R1545:III:114:2028-08-01:making_available",
-      "celex": "32023R1545",
-      "table_layout": "column headings",
-      "regulation": "Commission Regulation (EU) 2023/1545",
-      "annex": "III",
-      "entry_reference": "114",
-      "inci_name": "Pinus Pumila Needle Extract",
-      "chemical_name": "Pinus pumila leaf and twig oil and extract",
-      "names": [
-        {
-          "name": "Pinus Pumila Needle Extract",
-          "source": "inci_glossary",
-          "form": "as written",
-          "key": "pinus pumila needle extract"
-        },
-        {
-          "name": "Pinus Pumila Twig Leaf Extract",
-          "source": "inci_glossary",
-          "form": "as written",
-          "key": "pinus pumila twig leaf extract"
-        },
-        {
-          "name": "Pinus Pumila Twig Leaf Oil",
-          "source": "inci_glossary",
-          "form": "as written",
-          "key": "pinus pumila twig leaf oil"
-        },
-        {
-          "name": "Pinus pumila leaf and twig oil and extract",
-          "source": "chemical_name",
-          "form": "as written",
-          "key": "pinus pumila leaf and twig oil and extract"
-        }
-      ],
-      "row_text": "114 Pinus pumila leaf and twig oil and extract ( *2 ) Pinus Pumila Needle Extract; Pinus Pumila Twig Leaf Extract; Pinus Pumila Twig Leaf Oil 97676-05-6 307-681-6 The presence of the substance or substances shall be indicated as ‘Pinus Pumila’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products. The peroxide value shall be less than 10 mmoles/L (15)",
-      "date": "2028-08-01",
-      "stated_date": "2028-07-31",
-      "basis": "until",
-      "restriction": "making_available",
-      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
-      "resolution": "footnote marker (*2)",
-      "provision": "Cosmetic products containing that substance that do not comply with the restrictions may, provided that they comply with the restrictions applicable on 15 August 2023, be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "use_restriction"
-    },
-    {
-      "id": "32023R1545:III:366:2028-08-01:making_available",
-      "celex": "32023R1545",
-      "table_layout": "column headings",
-      "regulation": "Commission Regulation (EU) 2023/1545",
-      "annex": "III",
-      "entry_reference": "366",
-      "inci_name": "Rosa Rugosa Flower Oil",
-      "chemical_name": "Rosa rugosa flower oil",
-      "names": [
-        {
-          "name": "Rosa Rugosa Flower Oil",
-          "source": "inci_glossary",
-          "form": "as written",
-          "key": "rosa rugosa flower oil"
-        }
-      ],
-      "row_text": "Rosa rugosa flower oil ( *4 ) Rosa Rugosa Flower Oil 92347-25-6 296-213-3",
-      "date": "2028-08-01",
-      "stated_date": "2028-07-31",
-      "basis": "until",
-      "restriction": "making_available",
-      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
-      "resolution": "footnote marker (*4)",
-      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
-      "obligation": "use_restriction"
+      "obligation": "use_restriction",
+      "already_applying": true
     }
   ]
 }

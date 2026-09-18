@@ -641,6 +641,14 @@ def read_table(table, annex, unreadable):
                 key = normalise_name(variant)
                 if not key or key in seen_keys:
                     continue
+                # A trailing bracket in a chemical name is sometimes a source
+                # cross reference rather than a synonym, as in
+                # "...-2-buten-1-one (16)". Splitting that out produced a
+                # matchable substance called "16", which any label carrying a
+                # bare number would have matched. A substance name is never a
+                # bare number and never one or two characters.
+                if key.isdigit() or len(key) < 3:
+                    continue
                 seen_keys.add(key)
                 names.append({"name": variant, "source": source, "form": form, "key": key})
 
@@ -922,38 +930,88 @@ def make_record(celex, title, entry, provision, resolution):
 # substance, the date is real for that product, and the reader has something to
 # check their formulation against.
 LABELLING_SENTENCE = re.compile(
-    r"The presence of the substance shall be (?:indicated|declared) in the list of"
-    r" ingredients.*?rinse-off products\.?",
+    r"The presence of the substances?(?:\s+or\s+substances)?\s+shall be"
+    r" (?:indicated|declared).*?rinse-off products\.?",
     re.I | re.S)
 
 LABELLING_DUTY = re.compile(
-    r"indicated in the list of ingredients"
-    r"|shall be (?:declared|indicated) in the list",
+    r"(?:indicated|declared)\s+(?:as\s+.{0,80}?\s+)?in the list of ingredients",
     re.I)
 
-# A maximum concentration or a permitted product type left over once the
-# labelling sentence is removed. Entry 75 of Annex III as replaced by
-# Regulation (EU) 2026/909 carries both: a 4 % maximum in fragrance products
-# AND the labelling sentence. Reading only the labelling phrase would drop a
-# real restriction, which is the opposite error and just as wrong.
+# A maximum concentration or permitted product type surviving the removal of the
+# labelling sentence. Annex III entry 75 as replaced by Regulation (EU) 2026/909
+# carries BOTH a 4 % maximum and the labelling sentence, so reading the
+# labelling phrase alone would discard a real restriction.
 CONCENTRATION = re.compile(r"\d+(?:[.,]\d+)?\s*%")
+
+# Wording that shows the row carried some condition at all. Without one of
+# these, and without a percentage, the row holds only a name, a CAS number and
+# an EC number, which means the restriction text was not recovered rather than
+# that there is none. Several Annex III entries are printed as multiple rows
+# with the conditions on a parent row.
+CONDITION_WORDING = re.compile(
+    r"\bproducts?\b|\bbody parts\b|\bconcentration\b|\bready for use\b"
+    r"|\bpurposes?\b|\bperoxide value\b|\bppm\b|\bshall\b|\bmust\b"
+    r"|\bnot exceed\b|\bmaximum\b",
+    re.I)
+
+USE_RESTRICTION = "use_restriction"
+LABELLING = "labelling"
+NOT_RECOVERED = "restriction_text_not_recovered"
 
 
 def obligation_of(record):
     """What this entry asks of a product, judged from the entry's own text.
 
-    Returns "use_restriction" when a condition survives the removal of the
-    labelling sentence, otherwise "labelling" when the labelling sentence is
-    all there is, otherwise "use_restriction" by default so that nothing is
-    quietly excused from being reported.
+    Three answers, because two would force a false one. A restriction on use is
+    reported as a finding. A duty to name the substance in the list is not, and
+    is explained instead, since a list that names it is doing what the rule
+    asks. A row whose restriction text was never recovered is neither: it is
+    reported as a gap, because promoting it would invent a finding and
+    demoting it would hide one.
     """
     text = record.get("row_text") or ""
+
+    # Annex II is the prohibited list. An entry there needs no conditions
+    # column: being in it is the restriction.
+    if (record.get("annex") or "").upper() == "II":
+        return USE_RESTRICTION
+
     remainder = LABELLING_SENTENCE.sub(" ", text)
     if CONCENTRATION.search(remainder):
-        return "use_restriction"
+        return USE_RESTRICTION
     if LABELLING_DUTY.search(text):
-        return "labelling"
-    return "use_restriction"
+        return LABELLING
+    if not CONDITION_WORDING.search(remainder):
+        return NOT_RECOVERED
+    return USE_RESTRICTION
+
+
+def placing_limb_already_passed(record, today):
+    """True when this entry's own provision shows the rule is already biting.
+
+    Regulation (EU) 2023/1545 states its transition as "may be placed on the
+    Union market until 31 July 2026 and made available on the Union market
+    until 31 July 2028". On 18 September 2026 the first limb has passed. The
+    remaining date is a sell-through end for a rule already in force, not a
+    rule that starts to apply later, and calling it the latter is false.
+    """
+    text = record.get("provision") or ""
+    for match in re.finditer(r"placed on the Union market until " + DATE, text):
+        try:
+            when = to_date(match.group(1), match.group(2), match.group(3))
+        except Exception:
+            continue
+        if when <= today:
+            return True
+    for match in re.finditer(r"From " + DATE + r"[^.]{0,200}?shall not be placed", text):
+        try:
+            when = to_date(match.group(1), match.group(2), match.group(3))
+        except Exception:
+            continue
+        if when <= today:
+            return True
+    return False
 
 
 CATEGORY_NAME = re.compile(
@@ -1078,10 +1136,12 @@ def main(argv=None):
               if args.keep_past or datetime.date.fromisoformat(r["date"]) > today]
     for record in future:
         record["obligation"] = obligation_of(record)
+        record["already_applying"] = placing_limb_already_passed(record, today)
     uncheckable = [r for r in future if names_a_category(r)]
     rest = [r for r in future if not names_a_category(r)]
-    labelling_only = [r for r in rest if r["obligation"] == "labelling"]
-    shipped = [r for r in rest if r["obligation"] == "use_restriction"]
+    labelling_only = [r for r in rest if r["obligation"] == LABELLING]
+    not_recovered = [r for r in rest if r["obligation"] == NOT_RECOVERED]
+    shipped = [r for r in rest if r["obligation"] == USE_RESTRICTION]
     shipped.sort(key=lambda r: (r["date"], (r["inci_name"] or r["chemical_name"] or "").lower()))
 
     future_unresolved = [u for u in unresolved
@@ -1116,6 +1176,9 @@ def main(argv=None):
             "substance_links_shipped": len(shipped),
             "provisions_naming_a_category": len(uncheckable),
             "provisions_that_are_labelling_duties": len(labelling_only),
+            "provisions_with_no_restriction_text_recovered": len(not_recovered),
+            "shipped_entries_already_applying": sum(
+                1 for r in shipped if r["already_applying"]),
             "distinct_substances_labelling_only": len(
                 {(r["inci_name"] or r["chemical_name"]) for r in labelling_only}),
             "distinct_substances_shipped": len(substances),
@@ -1127,6 +1190,7 @@ def main(argv=None):
         "fetch_failures": failures,
         "uncheckable": uncheckable,
         "labelling_only": labelling_only,
+        "restriction_text_not_recovered": not_recovered,
         "unresolved": future_unresolved,
         "unclassified_sentences": unclassified,
         "unreadable_tables": unreadable,

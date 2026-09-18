@@ -67,6 +67,10 @@ class Finding(object):
             self.entry["restriction"], self.entry["restriction"])
 
     @property
+    def already_applying(self):
+        return bool(self.entry.get("already_applying"))
+
+    @property
     def regulation(self):
         return self.entry["regulation"]
 
@@ -119,6 +123,16 @@ class Register(object):
         return self.data.get("unresolved", [])
 
     @property
+    def not_recovered(self):
+        """Entries whose restriction text was never recovered from the source.
+
+        Several Annex III entries print as multiple rows with the conditions on
+        a parent row. Promoting one of these to a finding would invent a
+        restriction; dropping it would hide a date. It is reported instead.
+        """
+        return self.data.get("restriction_text_not_recovered", [])
+
+    @property
     def labelling_only(self):
         """Dated duties to NAME a substance in the list of ingredients.
 
@@ -156,7 +170,8 @@ class Register(object):
     def is_complete(self):
         return not (self.unresolved or self.unclassified
                     or self.unreadable_tables or self.fetch_failures
-                    or self.uncheckable or self.labelling_only)
+                    or self.uncheckable or self.labelling_only
+                    or self.not_recovered)
 
     def distinct_names(self):
         return len(self._exact)

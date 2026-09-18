@@ -50,6 +50,12 @@ def gaps(register):
             "{} dated restriction(s) were found in the regulations but the substances "
             "they cover could not be read from the text, so they are not matched "
             "against your list.".format(len(register.unresolved)))
+    if getattr(register, "not_recovered", None):
+        lines.append(
+            "{} dated entries had no restriction text that could be recovered from "
+            "the source, because the conditions are printed on a parent row. They are "
+            "neither reported as findings nor dropped. Run with --unresolved to read "
+            "them.".format(len(register.not_recovered)))
     if getattr(register, "labelling_only", None):
         substances = {(e.get("inci_name") or e.get("chemical_name"))
                       for e in register.labelling_only}
@@ -127,16 +133,24 @@ def render(findings, ingredients, register, source, out):
 
     if findings:
         substances = sorted({f.matched_name for f in findings})
-        out.write("{} of them {} named in an EU rule that is already adopted and "
-                  "starts to apply later.\n\n".format(
-                      len(substances), "is" if len(substances) == 1 else "are"))
+        in_force = sum(1 for f in findings if f.already_applying)
+        out.write("{} of them {} named in an EU rule with a date still ahead of "
+                  "it.\n".format(len(substances),
+                                 "is" if len(substances) == 1 else "are"))
+        if in_force:
+            out.write("Some of those rules are already in force; the date shown is when "
+                      "stock can no longer be sold.\n")
+        out.write("\n")
         current = None
         for finding in findings:
             heading = (finding.date, finding.restriction)
             if heading != current:
                 current = heading
-                out.write("{}   {}\n".format(pretty_date(finding.date),
-                                             finding.restriction_plain))
+                out.write("{}   {}{}\n".format(
+                    pretty_date(finding.date),
+                    finding.restriction_plain,
+                    "   [this rule is already in force; this is the sell-through end]"
+                    if finding.already_applying else ""))
             out.write("    {}\n".format(finding.matched_name))
             out.write("      on the label as   {}{}\n".format(
                 finding.ingredient,
@@ -152,7 +166,10 @@ def render(findings, ingredients, register, source, out):
         out.write("A date here names the ingredient, not your product. Each rule catches\n"
                   "products that do not meet its new restriction, and a printed ingredient\n"
                   "list states no concentrations, so this tool cannot tell you which side of\n"
-                  "that line you are on. Read the rule text above against your formulation.\n\n")
+                  "that line you are on. Read the rule text above against what you know\n"
+                  "of the product. Some conditions are not formulation choices at all: a\n"
+                  "peroxide value or a trace impurity limit is a property of the material\n"
+                  "you buy, and is answered by a supplier certificate, not by a recipe.\n\n")
     else:
         out.write("None of these ingredients is named in a rule with a date still ahead "
                   "of it.\n")
