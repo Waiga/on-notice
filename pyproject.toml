@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "on-notice"
+version = "0.1.0"
+description = "Which cosmetic ingredients have an EU deadline that has not arrived yet"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Waiga Arya" }]
+keywords = ["cosmetics", "regulation", "eu", "inci", "eur-lex"]
+dependencies = []
+
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Manufacturing",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Utilities",
+]
+
+[project.scripts]
+on-notice = "on_notice.cli:main"
+
+[tool.setuptools]
+packages = ["on_notice"]
+
+[tool.setuptools.package-data]
+on_notice = ["register.json"]

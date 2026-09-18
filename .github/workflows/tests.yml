@@ -1,0 +1,34 @@
+name: tests
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.9", "3.11", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Run the tests
+        run: python -m unittest discover -s tests -t . -v
+
+      - name: Install the package and run the command
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install .
+          on-notice --version
+          on-notice examples/plain-cleanser.txt
+          if on-notice examples/one-ingredient.txt; then
+            echo "expected a non zero exit when an ingredient is on notice"
+            exit 1
+          fi

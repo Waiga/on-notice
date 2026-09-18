@@ -1,0 +1,3540 @@
+{
+  "schema_version": 1,
+  "built": "2026-09-18",
+  "scan_boundary": {
+    "today": "2026-09-18",
+    "rule": "only provisions that start applying after this date are shipped; anything already in force is counted below but left out, because this tool reports what is coming, not what is already the case",
+    "earliest_amendment_covered": "2013",
+    "instrument": "Regulation (EC) No 1223/2009 on cosmetic products"
+  },
+  "source": {
+    "name": "EUR-Lex",
+    "url_pattern": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A{celex}",
+    "what_was_read": "the English consolidated text of each Commission regulation amending Regulation (EC) No 1223/2009 on cosmetic products"
+  },
+  "celex_scanned": [
+    "32013R0344",
+    "32013R0483",
+    "32013R0658",
+    "32013R1197",
+    "32014R0358",
+    "32014R0866",
+    "32014R1003",
+    "32014R1004",
+    "32015R1190",
+    "32015R1298",
+    "32016R0314",
+    "32016R0621",
+    "32016R0622",
+    "32016R1120",
+    "32016R1121",
+    "32016R1143",
+    "32016R1198",
+    "32017R0237",
+    "32017R0238",
+    "32017R1224",
+    "32017R1410",
+    "32017R1413",
+    "32017R2228",
+    "32018R0885",
+    "32018R0978",
+    "32018R1847",
+    "32019R0680",
+    "32019R0681",
+    "32019R0698",
+    "32019R0831",
+    "32019R1257",
+    "32019R1857",
+    "32019R1858",
+    "32019R1966",
+    "32020R1682",
+    "32020R1683",
+    "32020R1684",
+    "32021R0850",
+    "32021R1099",
+    "32021R1902",
+    "32022R0135",
+    "32022R1176",
+    "32022R1181",
+    "32022R1531",
+    "32022R2195",
+    "32023R1490",
+    "32023R1545",
+    "32024R0858",
+    "32024R0996",
+    "32025R0877",
+    "32026R0078",
+    "32026R0909"
+  ],
+  "counts": {
+    "regulations_listed": 52,
+    "regulations_read": 52,
+    "regulations_not_read": 0,
+    "dated_provisions_found": 120,
+    "substance_links_made": 703,
+    "substance_links_shipped": 36,
+    "provisions_naming_a_category": 2,
+    "provisions_that_are_labelling_duties": 38,
+    "distinct_substances_labelling_only": 38,
+    "distinct_substances_shipped": 29,
+    "unresolved_provisions_total": 9,
+    "unresolved_provisions_shipped": 0,
+    "unclassified_sentences": 1,
+    "unreadable_tables": 0
+  },
+  "fetch_failures": [],
+  "uncheckable": [
+    {
+      "id": "32026R0909:III:379:2027-01-01:placing",
+      "celex": "32026R0909",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2026/909",
+      "annex": "III",
+      "entry_reference": "379",
+      "inci_name": null,
+      "chemical_name": "Aluminium-containing ingredients with the exception of those listed in entries 34, 50, 189, 190 and 192 of Annex III, in entries",
+      "names": [
+        {
+          "name": "Aluminium-containing ingredients with the exception of those listed in entries 34, 50, 189, 190 and 192 of Annex III, in entries",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "aluminium containing ingredients with the exception of those listed in entries 34 50 189 190 and 192 of annex iii in entries"
+        },
+        {
+          "name": "117, 118, 119, 121, 131, 150 of Annex IV, in entry 61 in Annex V, and entry 27a of Annex VI.",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "117 118 119 121 131 150 of annex iv in entry 61 in annex v and entry 27a of annex vi"
+        }
+      ],
+      "row_text": "‘379 Aluminium-containing ingredients with the exception of those listed in entries 34, 50, 189, 190 and 192 of Annex III, in entries 117, 118, 119, 121, 131, 150 of Annex IV, in entry 61 in Annex V, and entry 27a of Annex VI. (**) (a) Non-aerosol antiperspirants or deodorants (a) 7,73 % (as Al) For (q): Not to be used in sunscreen products that may lead to exposure of the end user’s lungs by inhalation. For (r): Keep powder away from children’s nose and mouth",
+      "date": "2027-01-01",
+      "stated_date": "2027-01-01",
+      "basis": "from",
+      "restriction": "placing",
+      "restriction_plain": "products that do not meet the new restriction cannot be placed on the Union market",
+      "resolution": "footnote marker (**)",
+      "provision": "From 1 January 2027 cosmetic products containing these substances and not complying with the restrictions shall not be placed on the Union market.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32026R0909:III:379:2028-07-01:making_available",
+      "celex": "32026R0909",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2026/909",
+      "annex": "III",
+      "entry_reference": "379",
+      "inci_name": null,
+      "chemical_name": "Aluminium-containing ingredients with the exception of those listed in entries 34, 50, 189, 190 and 192 of Annex III, in entries",
+      "names": [
+        {
+          "name": "Aluminium-containing ingredients with the exception of those listed in entries 34, 50, 189, 190 and 192 of Annex III, in entries",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "aluminium containing ingredients with the exception of those listed in entries 34 50 189 190 and 192 of annex iii in entries"
+        },
+        {
+          "name": "117, 118, 119, 121, 131, 150 of Annex IV, in entry 61 in Annex V, and entry 27a of Annex VI.",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "117 118 119 121 131 150 of annex iv in entry 61 in annex v and entry 27a of annex vi"
+        }
+      ],
+      "row_text": "‘379 Aluminium-containing ingredients with the exception of those listed in entries 34, 50, 189, 190 and 192 of Annex III, in entries 117, 118, 119, 121, 131, 150 of Annex IV, in entry 61 in Annex V, and entry 27a of Annex VI. (**) (a) Non-aerosol antiperspirants or deodorants (a) 7,73 % (as Al) For (q): Not to be used in sunscreen products that may lead to exposure of the end user’s lungs by inhalation. For (r): Keep powder away from children’s nose and mouth",
+      "date": "2028-07-01",
+      "stated_date": "2028-07-01",
+      "basis": "from",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (**)",
+      "provision": "From 1 July 2028 cosmetic products containing these substances and not complying with the restrictions shall not be made available on the Union market.",
+      "obligation": "use_restriction"
+    }
+  ],
+  "labelling_only": [
+    {
+      "id": "32023R1545:III:88:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "88",
+      "inci_name": "Limonene",
+      "chemical_name": "1-methyl-4-prop-1-en-2-yl-cyclohexene",
+      "names": [
+        {
+          "name": "Limonene",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "limonene"
+        },
+        {
+          "name": "1-methyl-4-prop-1-en-2-yl-cyclohexene",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "1 methyl 4 prop 1 en 2 yl cyclohexene"
+        },
+        {
+          "name": "dl-limonene (racemic)",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "dl limonene racemic"
+        },
+        {
+          "name": "dl-limonene",
+          "source": "chemical_name",
+          "form": "without the bracketed suffix",
+          "key": "dl limonene"
+        },
+        {
+          "name": "racemic",
+          "source": "chemical_name",
+          "form": "bracketed short form",
+          "key": "racemic"
+        },
+        {
+          "name": "Dipentene",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "dipentene"
+        }
+      ],
+      "row_text": "88 1-methyl-4-prop-1-en-2-yl-cyclohexene; dl-limonene (racemic); Dipentene ( *1 ) Limonene 138-86-3/ 7705-14-8 205-341-0/ 231-732-0 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products. The peroxide value for each substance shall be less than 20 mmoles/L (15)",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*1)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restrictions may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:45:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "45",
+      "inci_name": "Benzyl Alcohol",
+      "chemical_name": "Benzyl alcohol (6)",
+      "names": [
+        {
+          "name": "Benzyl Alcohol",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "benzyl alcohol"
+        },
+        {
+          "name": "Benzyl alcohol (6)",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "benzyl alcohol 6"
+        }
+      ],
+      "row_text": "‘45 Benzyl alcohol (6) ( *2 ) Benzyl Alcohol 100-51-6 202-859-9 For purposes other than inhibiting the development of microorganisms in the product. This purpose has to be apparent from the presentation of the product. The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*2)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restrictions may, provided that they comply with the restrictions applicable on 15 August 2023, be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:124:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "124",
+      "inci_name": "Turpentine",
+      "chemical_name": "Turpentine gum ( Pinus spp.)",
+      "names": [
+        {
+          "name": "Turpentine",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "turpentine"
+        },
+        {
+          "name": "Turpentine gum ( Pinus spp.)",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "turpentine gum pinus spp"
+        },
+        {
+          "name": "Turpentine gum",
+          "source": "chemical_name",
+          "form": "without the bracketed suffix",
+          "key": "turpentine gum"
+        },
+        {
+          "name": "Turpentine oil and rectified oil",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "turpentine oil and rectified oil"
+        },
+        {
+          "name": "Turpentine, steam distilled ( Pinus spp.)",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "turpentine steam distilled pinus spp"
+        },
+        {
+          "name": "Turpentine, steam distilled",
+          "source": "chemical_name",
+          "form": "without the bracketed suffix",
+          "key": "turpentine steam distilled"
+        }
+      ],
+      "row_text": "124 Turpentine gum ( Pinus spp.); Turpentine oil and rectified oil; Turpentine, steam distilled ( Pinus spp.) ( *2 ) Turpentine 9005-90-7; 8006-64-2; 8052-14-0 232-688-5; 232-350-7; - The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products. The peroxide value for each substance shall be less than 10 mmoles/L (15)",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*2)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restrictions may, provided that they comply with the restrictions applicable on 15 August 2023, be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:131:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "131",
+      "inci_name": "Alpha-Terpinene",
+      "chemical_name": "p-Mentha-1,3-diene",
+      "names": [
+        {
+          "name": "Alpha-Terpinene",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "alpha terpinene"
+        },
+        {
+          "name": "p-Mentha-1,3-diene",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "p mentha 1 3 diene"
+        }
+      ],
+      "row_text": "131 p-Mentha-1,3-diene ( *2 ) Alpha-Terpinene 99-86-5 202-795-1 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products. The peroxide value shall be less than 10 mmoles/L (15)",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*2)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restrictions may, provided that they comply with the restrictions applicable on 15 August 2023, be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:133:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "133",
+      "inci_name": "Terpinolene",
+      "chemical_name": "p-Mentha-1,4(8)-diene",
+      "names": [
+        {
+          "name": "Terpinolene",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "terpinolene"
+        },
+        {
+          "name": "p-Mentha-1,4(8)-diene",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "p mentha 1 4 8 diene"
+        }
+      ],
+      "row_text": "133 p-Mentha-1,4(8)-diene ( *2 ) Terpinolene 586-62-9 209-578-0 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products The peroxide value shall be less than 10 mmoles/L (15)",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*2)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restrictions may, provided that they comply with the restrictions applicable on 15 August 2023, be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:327:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "327",
+      "inci_name": "Acetyl Cedrene",
+      "chemical_name": "[3R-(3α,3aβ,7β,8aα)]-1-(2,3,4,7,8,8a-hexahydro-3,6,8,8-tetramethyl-1H-3a,7-methanoazulen-5-yl)ethan-1-one",
+      "names": [
+        {
+          "name": "Acetyl Cedrene",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "acetyl cedrene"
+        },
+        {
+          "name": "[3R-(3α,3aβ,7β,8aα)]-1-(2,3,4,7,8,8a-hexahydro-3,6,8,8-tetramethyl-1H-3a,7-methanoazulen-5-yl)ethan-1-one",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "3r 3 3a 7 8a 1 2 3 4 7 8 8a hexahydro 3 6 8 8 tetramethyl 1h 3a 7 methanoazulen 5 yl ethan 1 one"
+        }
+      ],
+      "row_text": "‘327 [3R-(3α,3aβ,7β,8aα)]-1-(2,3,4,7,8,8a-hexahydro-3,6,8,8-tetramethyl-1H-3a,7-methanoazulen-5-yl)ethan-1-one ( *4 ) Acetyl Cedrene 32388-55-9 251-020-3 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:328:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "328",
+      "inci_name": "Amyl Salicylate",
+      "chemical_name": "Pentyl-2-hydroxy-benzoate",
+      "names": [
+        {
+          "name": "Amyl Salicylate",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "amyl salicylate"
+        },
+        {
+          "name": "Pentyl-2-hydroxy-benzoate",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "pentyl 2 hydroxy benzoate"
+        }
+      ],
+      "row_text": "328 Pentyl-2-hydroxy-benzoate ( *4 ) Amyl Salicylate 2050-08-0 218-080-2 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:329:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "329",
+      "inci_name": "Anethole",
+      "chemical_name": "1-Methoxy-4-(1E)-1-propen-1-yl-benzene (trans-Anethole)",
+      "names": [
+        {
+          "name": "Anethole",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "anethole"
+        },
+        {
+          "name": "1-Methoxy-4-(1E)-1-propen-1-yl-benzene (trans-Anethole)",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "1 methoxy 4 1e 1 propen 1 yl benzene trans anethole"
+        },
+        {
+          "name": "1-Methoxy-4-(1E)-1-propen-1-yl-benzene",
+          "source": "chemical_name",
+          "form": "without the bracketed suffix",
+          "key": "1 methoxy 4 1e 1 propen 1 yl benzene"
+        }
+      ],
+      "row_text": "329 1-Methoxy-4-(1E)-1-propen-1-yl-benzene (trans-Anethole) ( *4 ) Anethole 104-46-1/ 4180-23-8 203-205-5/ 224-052-0 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:330:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "330",
+      "inci_name": "Benzaldehyde",
+      "chemical_name": "Benzaldehyde",
+      "names": [
+        {
+          "name": "Benzaldehyde",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "benzaldehyde"
+        }
+      ],
+      "row_text": "330 Benzaldehyde ( *4 ) Benzaldehyde 100-52-7 202-860-4 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:331:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "331",
+      "inci_name": "Camphor",
+      "chemical_name": "Bornan-2-one",
+      "names": [
+        {
+          "name": "Camphor",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "camphor"
+        },
+        {
+          "name": "Bornan-2-one",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "bornan 2 one"
+        },
+        {
+          "name": "1,7,7-Trimethylbi-cyclo[2.2.1]-2-heptanone",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "1 7 7 trimethylbi cyclo 2 2 1 2 heptanone"
+        }
+      ],
+      "row_text": "331 Bornan-2-one; 1,7,7-Trimethylbi-cyclo[2.2.1]-2-heptanone ( *4 ) Camphor 76-22-2/ 21368-68-3/ 464-49-3/ 464-48-2 200-945-0/ 244-350-4/ 207-355-2/ 207-354-7 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:332:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "332",
+      "inci_name": "Beta-Caryophyllene",
+      "chemical_name": "(1R,4E,9S)-4,11,11-Trimethyl-8-methylenebicyclo[7.2.0]undec-4-ene",
+      "names": [
+        {
+          "name": "Beta-Caryophyllene",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "beta caryophyllene"
+        },
+        {
+          "name": "(1R,4E,9S)-4,11,11-Trimethyl-8-methylenebicyclo[7.2.0]undec-4-ene",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "1r 4e 9s 4 11 11 trimethyl 8 methylenebicyclo 7 2 0 undec 4 ene"
+        }
+      ],
+      "row_text": "332 (1R,4E,9S)-4,11,11-Trimethyl-8-methylenebicyclo[7.2.0]undec-4-ene ( *4 ) Beta-Caryophyllene 87-44-5 201-746-1 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:333:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "333",
+      "inci_name": "Carvone",
+      "chemical_name": "2-methyl-5-(prop-1-en-2-yl)cyclohex-2-en-1-one",
+      "names": [
+        {
+          "name": "Carvone",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "carvone"
+        },
+        {
+          "name": "2-methyl-5-(prop-1-en-2-yl)cyclohex-2-en-1-one",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "2 methyl 5 prop 1 en 2 yl cyclohex 2 en 1 one"
+        },
+        {
+          "name": "(5R)-2-Methyl-5-prop-1-en-2-ylcyclohex-2-en-1-one",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "5r 2 methyl 5 prop 1 en 2 ylcyclohex 2 en 1 one"
+        },
+        {
+          "name": "(5S)-2-Methyl-5-prop-1-en-2-ylcyclohex-2-en-1-one",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "5s 2 methyl 5 prop 1 en 2 ylcyclohex 2 en 1 one"
+        }
+      ],
+      "row_text": "333 2-methyl-5-(prop-1-en-2-yl)cyclohex-2-en-1-one;(5R)-2-Methyl-5-prop-1-en-2-ylcyclohex-2-en-1-one;(5S)-2-Methyl-5-prop-1-en-2-ylcyclohex-2-en-1-one ( *4 ) Carvone 99-49-0 / 6485-40-1/ 2244-16-8 202-759-5/ 229-352-5/ 218-827-2 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:334:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "334",
+      "inci_name": "Dimethyl Phenethyl Acetate",
+      "chemical_name": "2-Methyl-1-phenyl-2-propyl acetate",
+      "names": [
+        {
+          "name": "Dimethyl Phenethyl Acetate",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "dimethyl phenethyl acetate"
+        },
+        {
+          "name": "2-Methyl-1-phenyl-2-propyl acetate",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "2 methyl 1 phenyl 2 propyl acetate"
+        },
+        {
+          "name": "Dimethylbenzyl Carbinyl Acetate",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "dimethylbenzyl carbinyl acetate"
+        }
+      ],
+      "row_text": "334 2-Methyl-1-phenyl-2-propyl acetate; Dimethylbenzyl Carbinyl Acetate ( *4 ) Dimethyl Phenethyl Acetate 151-05-3 205-781-3 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:335:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "335",
+      "inci_name": "Hexadecanolactone",
+      "chemical_name": "Oxacyclohepta-decan-2-one",
+      "names": [
+        {
+          "name": "Hexadecanolactone",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "hexadecanolactone"
+        },
+        {
+          "name": "Oxacyclohepta-decan-2-one",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "oxacyclohepta decan 2 one"
+        }
+      ],
+      "row_text": "335 Oxacyclohepta-decan-2-one ( *4 ) Hexadecanolactone 109-29-5 203-662-0 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:336:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "336",
+      "inci_name": "Hexamethylindanopyran",
+      "chemical_name": "1,3,4,6,7,8-Hexahydro-4,6,6,7,8,8-hexamethylcyclopenta-γ-2-benzopyran",
+      "names": [
+        {
+          "name": "Hexamethylindanopyran",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "hexamethylindanopyran"
+        },
+        {
+          "name": "1,3,4,6,7,8-Hexahydro-4,6,6,7,8,8-hexamethylcyclopenta-γ-2-benzopyran",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "1 3 4 6 7 8 hexahydro 4 6 6 7 8 8 hexamethylcyclopenta 2 benzopyran"
+        }
+      ],
+      "row_text": "336 1,3,4,6,7,8-Hexahydro-4,6,6,7,8,8-hexamethylcyclopenta-γ-2-benzopyran ( *4 ) Hexamethylindanopyran 1222-05-5 214-946-9 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:337:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "337",
+      "inci_name": "Linalyl Acetate",
+      "chemical_name": "3,7-Dimethyl octa-1,6-diene-3-yl acetate",
+      "names": [
+        {
+          "name": "Linalyl Acetate",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "linalyl acetate"
+        },
+        {
+          "name": "3,7-Dimethyl octa-1,6-diene-3-yl acetate",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "3 7 dimethyl octa 1 6 diene 3 yl acetate"
+        }
+      ],
+      "row_text": "337 3,7-Dimethyl octa-1,6-diene-3-yl acetate ( *4 ) Linalyl Acetate 115-95-7 204-116-4 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:338:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "338",
+      "inci_name": "Menthol",
+      "chemical_name": "Menthol",
+      "names": [
+        {
+          "name": "Menthol",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "menthol"
+        },
+        {
+          "name": "dl-menthol",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "dl menthol"
+        },
+        {
+          "name": "l-menthol",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "l menthol"
+        },
+        {
+          "name": "d-menthol",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "d menthol"
+        }
+      ],
+      "row_text": "338 Menthol; dl-menthol; l-menthol; d-menthol ( *4 ) Menthol 89-78-1 / 1490-04-6 / 2216-51-5 / 15356-60-2 201-939-0/ 216-074-4/ 218-690-9/ 239-387-8 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:339:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "339",
+      "inci_name": "Trimethylcyclopentenyl Methylisopentenol",
+      "chemical_name": "3-Methyl-5-(2,2,3-Trimethyl-3-Cyclopentenyl)pent-4-en-2-ol",
+      "names": [
+        {
+          "name": "Trimethylcyclopentenyl Methylisopentenol",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "trimethylcyclopentenyl methylisopentenol"
+        },
+        {
+          "name": "3-Methyl-5-(2,2,3-Trimethyl-3-Cyclopentenyl)pent-4-en-2-ol",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "3 methyl 5 2 2 3 trimethyl 3 cyclopentenyl pent 4 en 2 ol"
+        }
+      ],
+      "row_text": "339 3-Methyl-5-(2,2,3-Trimethyl-3-Cyclopentenyl)pent-4-en-2-ol ( *4 ) Trimethylcyclopentenyl Methylisopentenol 67801-20-1 267-140-4 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:340:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "340",
+      "inci_name": "Salicylaldehyde",
+      "chemical_name": "o-Hydroxy-benzaldehyde",
+      "names": [
+        {
+          "name": "Salicylaldehyde",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "salicylaldehyde"
+        },
+        {
+          "name": "o-Hydroxy-benzaldehyde",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "o hydroxy benzaldehyde"
+        }
+      ],
+      "row_text": "340 o-Hydroxy-benzaldehyde ( *4 ) Salicylaldehyde 90-02-8 201-961-0 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:341:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "341",
+      "inci_name": "Santalol",
+      "chemical_name": "5-(2,3-Dimethyl-tricyclo[2.2.1.02,6]-hept-3-yl)-2-methylpent-2-en-1-ol (alpha-Santalol)",
+      "names": [
+        {
+          "name": "Santalol",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "santalol"
+        },
+        {
+          "name": "5-(2,3-Dimethyl-tricyclo[2.2.1.02,6]-hept-3-yl)-2-methylpent-2-en-1-ol (alpha-Santalol)",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "5 2 3 dimethyl tricyclo 2 2 1 02 6 hept 3 yl 2 methylpent 2 en 1 ol alpha santalol"
+        },
+        {
+          "name": "5-(2,3-Dimethyl-tricyclo[2.2.1.02,6]-hept-3-yl)-2-methylpent-2-en-1-ol",
+          "source": "chemical_name",
+          "form": "without the bracketed suffix",
+          "key": "5 2 3 dimethyl tricyclo 2 2 1 02 6 hept 3 yl 2 methylpent 2 en 1 ol"
+        },
+        {
+          "name": "(1S-(1a,2a(Z),4a))-2-Methyl-5-(2-methyl-3-methylenebicyclo[2.2.1]hept-2-yl)-2-penten-1-ol",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "1s 1a 2a z 4a 2 methyl 5 2 methyl 3 methylenebicyclo 2 2 1 hept 2 yl 2 penten 1 ol"
+        },
+        {
+          "name": "(beta-Santalol)",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "beta santalol"
+        }
+      ],
+      "row_text": "341 5-(2,3-Dimethyl-tricyclo[2.2.1.02,6]-hept-3-yl)-2-methylpent-2-en-1-ol (alpha-Santalol); (1S-(1a,2a(Z),4a))-2-Methyl-5-(2-methyl-3-methylenebicyclo[2.2.1]hept-2-yl)-2-penten-1-ol (beta-Santalol) ( *4 ) Santalol 11031-45-1/ 115-71-9/ 77-42-9 234-262-4/ 204-102-8/ 201-027-2 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:342:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "342",
+      "inci_name": "Sclareol",
+      "chemical_name": "[1R-(1alpha)]-alpha-Ethenyldecahydro-2-hydroxy-a,2,5,5,8a-pentamethyl-1-naphthalenepropanol",
+      "names": [
+        {
+          "name": "Sclareol",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "sclareol"
+        },
+        {
+          "name": "[1R-(1alpha)]-alpha-Ethenyldecahydro-2-hydroxy-a,2,5,5,8a-pentamethyl-1-naphthalenepropanol",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "1r 1alpha alpha ethenyldecahydro 2 hydroxy a 2 5 5 8a pentamethyl 1 naphthalenepropanol"
+        }
+      ],
+      "row_text": "342 [1R-(1alpha)]-alpha-Ethenyldecahydro-2-hydroxy-a,2,5,5,8a-pentamethyl-1-naphthalenepropanol ( *4 ) Sclareol 515-03-7 208-194-0 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:343:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "343",
+      "inci_name": "Terpineol",
+      "chemical_name": "2-(4-methylcyclohex-3-en-1-yl)propan-2-ol",
+      "names": [
+        {
+          "name": "Terpineol",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "terpineol"
+        },
+        {
+          "name": "2-(4-methylcyclohex-3-en-1-yl)propan-2-ol",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "2 4 methylcyclohex 3 en 1 yl propan 2 ol"
+        },
+        {
+          "name": "p-Menth-1-en-8-ol (alpha-Terpineol)",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "p menth 1 en 8 ol alpha terpineol"
+        },
+        {
+          "name": "p-Menth-1-en-8-ol",
+          "source": "chemical_name",
+          "form": "without the bracketed suffix",
+          "key": "p menth 1 en 8 ol"
+        },
+        {
+          "name": "1-methyl-4-(1-methylvinyl)cyclohexan-1-ol (beta-Terpineol)",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "1 methyl 4 1 methylvinyl cyclohexan 1 ol beta terpineol"
+        },
+        {
+          "name": "1-methyl-4-(1-methylvinyl)cyclohexan-1-ol",
+          "source": "chemical_name",
+          "form": "without the bracketed suffix",
+          "key": "1 methyl 4 1 methylvinyl cyclohexan 1 ol"
+        },
+        {
+          "name": "1-methyl-4-(1-methylethylidene)cyclohexan-1-ol (gamma-Terpineol)",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "1 methyl 4 1 methylethylidene cyclohexan 1 ol gamma terpineol"
+        },
+        {
+          "name": "1-methyl-4-(1-methylethylidene)cyclohexan-1-ol",
+          "source": "chemical_name",
+          "form": "without the bracketed suffix",
+          "key": "1 methyl 4 1 methylethylidene cyclohexan 1 ol"
+        }
+      ],
+      "row_text": "343 2-(4-methylcyclohex-3-en-1-yl)propan-2-ol; p-Menth-1-en-8-ol (alpha-Terpineol); 1-methyl-4-(1-methylvinyl)cyclohexan-1-ol (beta-Terpineol); 1-methyl-4-(1-methylethylidene)cyclohexan-1-ol (gamma-Terpineol) ( *4 ) Terpineol 8000-41-7/ 98-55-5/ 138-87-4/ 586-81-2 232-268-1/ 202-680-6/ 205-342-6/ 209-584-3 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:344:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "344",
+      "inci_name": "Tetramethyl acetyloctahydronaphthalenes",
+      "chemical_name": "1-(1,2,3,4,5,6,7,8-octahydro-2,3,8,8-tetramethyl-2-naphthyl)ethan-1-one",
+      "names": [
+        {
+          "name": "Tetramethyl acetyloctahydronaphthalenes",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "tetramethyl acetyloctahydronaphthalenes"
+        },
+        {
+          "name": "1-(1,2,3,4,5,6,7,8-octahydro-2,3,8,8-tetramethyl-2-naphthyl)ethan-1-one",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "1 1 2 3 4 5 6 7 8 octahydro 2 3 8 8 tetramethyl 2 naphthyl ethan 1 one"
+        },
+        {
+          "name": "1-(1,2,3,4,5,6,7,8-octahydro-2,3,5,5-tetramethyl-2-naphthyl)ethan-1-one",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "1 1 2 3 4 5 6 7 8 octahydro 2 3 5 5 tetramethyl 2 naphthyl ethan 1 one"
+        },
+        {
+          "name": "1-(1,2,3,5,6,7,8,8a-octahydro-2,3,8,8-tetramethyl-2-naphthyl)ethan-1-one",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "1 1 2 3 5 6 7 8 8a octahydro 2 3 8 8 tetramethyl 2 naphthyl ethan 1 one"
+        },
+        {
+          "name": "1-(1,2,3,4,6,7,8,8a-octahydro-2,3,8,8-tetramethyl-2-naphthyl)ethan-1-one",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "1 1 2 3 4 6 7 8 8a octahydro 2 3 8 8 tetramethyl 2 naphthyl ethan 1 one"
+        }
+      ],
+      "row_text": "344 1-(1,2,3,4,5,6,7,8-octahydro-2,3,8,8-tetramethyl-2-naphthyl)ethan-1-one; 1-(1,2,3,4,5,6,7,8-octahydro-2,3,5,5-tetramethyl-2-naphthyl)ethan-1-one; 1-(1,2,3,5,6,7,8,8a-octahydro-2,3,8,8-tetramethyl-2-naphthyl)ethan-1-one; 1-(1,2,3,4,6,7,8,8a-octahydro-2,3,8,8-tetramethyl-2-naphthyl)ethan-1-one ( *4 ) Tetramethyl acetyloctahydronaphthalenes 54464-57-2/ 54464-59-4/ 68155-66-8/ 68155-67-9/ 259-174-3/ 259-175-9/ 268-978-3/ 268-979-9/ The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:345:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "345",
+      "inci_name": "Trimethylbenzenepropanol",
+      "chemical_name": "3-(2,2-Dimethyl-3-hydroxypropyl)toluene",
+      "names": [
+        {
+          "name": "Trimethylbenzenepropanol",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "trimethylbenzenepropanol"
+        },
+        {
+          "name": "3-(2,2-Dimethyl-3-hydroxypropyl)toluene",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "3 2 2 dimethyl 3 hydroxypropyl toluene"
+        }
+      ],
+      "row_text": "345 3-(2,2-Dimethyl-3-hydroxypropyl)toluene ( *4 ) Trimethylbenzenepropanol 103694-68-4 403-140-4 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:346:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "346",
+      "inci_name": "Vanillin",
+      "chemical_name": "4-Hydroxy-3-methoxybenz-aldehyde",
+      "names": [
+        {
+          "name": "Vanillin",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "vanillin"
+        },
+        {
+          "name": "4-Hydroxy-3-methoxybenz-aldehyde",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "4 hydroxy 3 methoxybenz aldehyde"
+        }
+      ],
+      "row_text": "346 4-Hydroxy-3-methoxybenz-aldehyde ( *4 ) Vanillin 121-33-5 204-465-2 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:348:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "348",
+      "inci_name": "Cinnamomum Cassia Leaf Oil",
+      "chemical_name": "Cinnamomum cassia leaf Oil",
+      "names": [
+        {
+          "name": "Cinnamomum Cassia Leaf Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "cinnamomum cassia leaf oil"
+        }
+      ],
+      "row_text": "348 Cinnamomum cassia leaf Oil ( *4 ) Cinnamomum Cassia Leaf Oil 8007-80-5/ 84961-46-6 -/ 284-635-0 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:349:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "349",
+      "inci_name": "Cinnamomum Zeylanicum Bark Oil",
+      "chemical_name": "Cinnamomum zeylanicum bark oil",
+      "names": [
+        {
+          "name": "Cinnamomum Zeylanicum Bark Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "cinnamomum zeylanicum bark oil"
+        }
+      ],
+      "row_text": "349 Cinnamomum zeylanicum bark oil ( *4 ) Cinnamomum Zeylanicum Bark Oil 8015-91-6/ 84649-98-9 -/ 283-479-0 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:352:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "352",
+      "inci_name": "Citrus Aurantium Bergamia Peel Oil",
+      "chemical_name": "Citrus aurantium bergamia oil (Bergamot oil)",
+      "names": [
+        {
+          "name": "Citrus Aurantium Bergamia Peel Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "citrus aurantium bergamia peel oil"
+        },
+        {
+          "name": "Citrus aurantium bergamia oil (Bergamot oil)",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "citrus aurantium bergamia oil bergamot oil"
+        },
+        {
+          "name": "Citrus aurantium bergamia oil",
+          "source": "chemical_name",
+          "form": "without the bracketed suffix",
+          "key": "citrus aurantium bergamia oil"
+        }
+      ],
+      "row_text": "352 Citrus aurantium bergamia oil (Bergamot oil) ( *4 ) Citrus Aurantium Bergamia Peel Oil 8007-75-8 89957-91-5 68648-33-9/ 8007-75-8/ 85049-52-1 616-915-9 289-612-9 -/ 616-915-9/ - The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:353:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "353",
+      "inci_name": "Citrus Limon Peel Oil",
+      "chemical_name": "Citrus limon oil",
+      "names": [
+        {
+          "name": "Citrus Limon Peel Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "citrus limon peel oil"
+        },
+        {
+          "name": "Citrus limon oil",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "citrus limon oil"
+        }
+      ],
+      "row_text": "353 Citrus limon oil ( *4 ) Citrus Limon Peel Oil 84929-31-7/ 8008-56-8 284-515-8/ - The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:359:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "359",
+      "inci_name": "Laurus Nobilis Leaf Oil",
+      "chemical_name": "Laurus nobilis oil",
+      "names": [
+        {
+          "name": "Laurus Nobilis Leaf Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "laurus nobilis leaf oil"
+        },
+        {
+          "name": "Laurus nobilis oil",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "laurus nobilis oil"
+        }
+      ],
+      "row_text": "359 Laurus nobilis oil ( *4 ) ( *6 ) Laurus Nobilis Leaf Oil 8002-41-3/ 8007-48-5/ 84603-73-6 -/ -/ 283-272-5 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:361:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "361",
+      "inci_name": "Mentha Piperita Oil",
+      "chemical_name": "Mentha piperita oil",
+      "names": [
+        {
+          "name": "Mentha Piperita Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "mentha piperita oil"
+        }
+      ],
+      "row_text": "361 Mentha piperita oil ( *4 ) Mentha Piperita Oil 8006-90-4/ 84082-70-2 -/ 282-015-4 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:362:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "362",
+      "inci_name": "Mentha Viridis Leaf Oil",
+      "chemical_name": "Mentha spicata oil (spearmint oil)",
+      "names": [
+        {
+          "name": "Mentha Viridis Leaf Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "mentha viridis leaf oil"
+        },
+        {
+          "name": "Mentha spicata oil (spearmint oil)",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "mentha spicata oil spearmint oil"
+        },
+        {
+          "name": "Mentha spicata oil",
+          "source": "chemical_name",
+          "form": "without the bracketed suffix",
+          "key": "mentha spicata oil"
+        }
+      ],
+      "row_text": "362 Mentha spicata oil (spearmint oil) ( *4 ) Mentha Viridis Leaf Oil 8008-79-5/ 84696-51-5 616-927-4/ 283-656-2 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:364:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "364",
+      "inci_name": "Pelargonium Graveolens Flower Oil",
+      "chemical_name": "Pelargonium graveolens oil",
+      "names": [
+        {
+          "name": "Pelargonium Graveolens Flower Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "pelargonium graveolens flower oil"
+        },
+        {
+          "name": "Pelargonium graveolens oil",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "pelargonium graveolens oil"
+        }
+      ],
+      "row_text": "364 Pelargonium graveolens oil ( *4 ) Pelargonium Graveolens Flower Oil 90082-51-2/ 8000-46-2 290-140-0/ - The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:365:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "365",
+      "inci_name": "Pogostemon Cablin Oil",
+      "chemical_name": "Pogostemon cablin oil",
+      "names": [
+        {
+          "name": "Pogostemon Cablin Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "pogostemon cablin oil"
+        }
+      ],
+      "row_text": "365 Pogostemon cablin oil ( *4 ) Pogostemon Cablin Oil 8014-09-3/ 84238-39-1 -/ 282-493-4 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:367:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "367",
+      "inci_name": "Santalum Album Oil",
+      "chemical_name": "Santalum album oil",
+      "names": [
+        {
+          "name": "Santalum Album Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "santalum album oil"
+        }
+      ],
+      "row_text": "367 Santalum album oil ( *4 ) Santalum Album Oil 8006-87-9/ 84787-70-2 -/ 284-111-1 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:368:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "368",
+      "inci_name": "Eugenyl Acetate",
+      "chemical_name": "Phenol, 2-methoxy-4-(2-propenyl)-, acetate",
+      "names": [
+        {
+          "name": "Eugenyl Acetate",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "eugenyl acetate"
+        },
+        {
+          "name": "Phenol, 2-methoxy-4-(2-propenyl)-, acetate",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "phenol 2 methoxy 4 2 propenyl acetate"
+        }
+      ],
+      "row_text": "368 Phenol, 2-methoxy-4-(2-propenyl)-, acetate ( *4 ) Eugenyl Acetate 93-28-7 202-235-6 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:369:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "369",
+      "inci_name": "Geranyl Acetate",
+      "chemical_name": "2,6-Octadien-1-ol, 3,7-dimethyl-,1-acetate, (2E)-",
+      "names": [
+        {
+          "name": "Geranyl Acetate",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "geranyl acetate"
+        },
+        {
+          "name": "2,6-Octadien-1-ol, 3,7-dimethyl-,1-acetate, (2E)-",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "2 6 octadien 1 ol 3 7 dimethyl 1 acetate 2e"
+        }
+      ],
+      "row_text": "369 2,6-Octadien-1-ol, 3,7-dimethyl-,1-acetate, (2E)- ( *4 ) Geranyl Acetate 105-87-3 203-341-5 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    },
+    {
+      "id": "32023R1545:III:370:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "370",
+      "inci_name": "Isoeugenyl Acetate",
+      "chemical_name": "2-Methoxy-4-prop-1-enylphenyl acetate",
+      "names": [
+        {
+          "name": "Isoeugenyl Acetate",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "isoeugenyl acetate"
+        },
+        {
+          "name": "2-Methoxy-4-prop-1-enylphenyl acetate",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "2 methoxy 4 prop 1 enylphenyl acetate"
+        }
+      ],
+      "row_text": "370 2-Methoxy-4-prop-1-enylphenyl acetate ( *4 ) Isoeugenyl Acetate 93-29-8 202-236-1 The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "labelling"
+    }
+  ],
+  "unresolved": [],
+  "unclassified_sentences": [
+    {
+      "origin": "article",
+      "sentence": "Article 2 shall apply from 27 November 2019.",
+      "celex": "32019R0698",
+      "regulation": "Commission Regulation (EU) 2019/698"
+    }
+  ],
+  "unreadable_tables": [],
+  "per_regulation": [
+    {
+      "celex": "32013R0344",
+      "regulation": "Commission Regulation (EU) No 344/2013",
+      "source": "cache",
+      "annex_entries_read": 268,
+      "footnotes_read": 1,
+      "dated_provisions_found": 1,
+      "substance_links_made": 216,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32013R0483",
+      "regulation": "Commission Regulation (EU) No 483/2013",
+      "source": "cache",
+      "annex_entries_read": 2,
+      "footnotes_read": 0,
+      "dated_provisions_found": 1,
+      "substance_links_made": 1,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32013R0658",
+      "regulation": "Commission Regulation (EU) No 658/2013",
+      "source": "cache",
+      "annex_entries_read": 37,
+      "footnotes_read": 0,
+      "dated_provisions_found": 1,
+      "substance_links_made": 29,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32013R1197",
+      "regulation": "Commission Regulation (EU) No 1197/2013",
+      "source": "cache",
+      "annex_entries_read": 63,
+      "footnotes_read": 0,
+      "dated_provisions_found": 2,
+      "substance_links_made": 32,
+      "substance_links_unresolved": 1
+    },
+    {
+      "celex": "32014R0358",
+      "regulation": "Commission Regulation (EU) No 358/2014",
+      "source": "cache",
+      "annex_entries_read": 24,
+      "footnotes_read": 0,
+      "dated_provisions_found": 2,
+      "substance_links_made": 14,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32014R0866",
+      "regulation": "Commission Regulation (EU) No 866/2014",
+      "source": "cache",
+      "annex_entries_read": 16,
+      "footnotes_read": 0,
+      "dated_provisions_found": 0,
+      "substance_links_made": 0,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32014R1003",
+      "regulation": "Commission Regulation (EU) No 1003/2014",
+      "source": "cache",
+      "annex_entries_read": 2,
+      "footnotes_read": 0,
+      "dated_provisions_found": 3,
+      "substance_links_made": 6,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32014R1004",
+      "regulation": "Commission Regulation (EU) No 1004/2014",
+      "source": "cache",
+      "annex_entries_read": 2,
+      "footnotes_read": 0,
+      "dated_provisions_found": 3,
+      "substance_links_made": 6,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32015R1190",
+      "regulation": "Commission Regulation (EU) 2015/1190",
+      "source": "cache",
+      "annex_entries_read": 13,
+      "footnotes_read": 0,
+      "dated_provisions_found": 2,
+      "substance_links_made": 10,
+      "substance_links_unresolved": 1
+    },
+    {
+      "celex": "32015R1298",
+      "regulation": "Commission Regulation (EU) 2015/1298",
+      "source": "cache",
+      "annex_entries_read": 1,
+      "footnotes_read": 0,
+      "dated_provisions_found": 2,
+      "substance_links_made": 2,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32016R0314",
+      "regulation": "Commission Regulation (EU) 2016/314",
+      "source": "cache",
+      "annex_entries_read": 5,
+      "footnotes_read": 0,
+      "dated_provisions_found": 2,
+      "substance_links_made": 2,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32016R0621",
+      "regulation": "Commission Regulation (EU) 2016/621",
+      "source": "cache",
+      "annex_entries_read": 2,
+      "footnotes_read": 1,
+      "dated_provisions_found": 0,
+      "substance_links_made": 0,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32016R0622",
+      "regulation": "Commission Regulation (EU) 2016/622",
+      "source": "cache",
+      "annex_entries_read": 6,
+      "footnotes_read": 4,
+      "dated_provisions_found": 0,
+      "substance_links_made": 0,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32016R1120",
+      "regulation": "Commission Regulation (EU) 2016/1120",
+      "source": "cache",
+      "annex_entries_read": 2,
+      "footnotes_read": 0,
+      "dated_provisions_found": 0,
+      "substance_links_made": 0,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32016R1121",
+      "regulation": "Commission Regulation (EU) 2016/1121",
+      "source": "cache",
+      "annex_entries_read": 2,
+      "footnotes_read": 1,
+      "dated_provisions_found": 0,
+      "substance_links_made": 0,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32016R1143",
+      "regulation": "Commission Regulation (EU) 2016/1143",
+      "source": "cache",
+      "annex_entries_read": 2,
+      "footnotes_read": 4,
+      "dated_provisions_found": 0,
+      "substance_links_made": 0,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32016R1198",
+      "regulation": "Commission Regulation (EU) 2016/1198",
+      "source": "cache",
+      "annex_entries_read": 1,
+      "footnotes_read": 0,
+      "dated_provisions_found": 2,
+      "substance_links_made": 2,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32017R0237",
+      "regulation": "Commission Regulation (EU) 2017/237",
+      "source": "cache",
+      "annex_entries_read": 25,
+      "footnotes_read": 0,
+      "dated_provisions_found": 0,
+      "substance_links_made": 0,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32017R0238",
+      "regulation": "Commission Regulation (EU) 2017/238",
+      "source": "cache",
+      "annex_entries_read": 1,
+      "footnotes_read": 0,
+      "dated_provisions_found": 1,
+      "substance_links_made": 1,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32017R1224",
+      "regulation": "Commission Regulation (EU) 2017/1224",
+      "source": "cache",
+      "annex_entries_read": 1,
+      "footnotes_read": 1,
+      "dated_provisions_found": 2,
+      "substance_links_made": 2,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32017R1410",
+      "regulation": "Commission Regulation (EU) 2017/1410",
+      "source": "cache",
+      "annex_entries_read": 3,
+      "footnotes_read": 1,
+      "dated_provisions_found": 5,
+      "substance_links_made": 6,
+      "substance_links_unresolved": 1
+    },
+    {
+      "celex": "32017R1413",
+      "regulation": "Commission Regulation (EU) 2017/1413",
+      "source": "cache",
+      "annex_entries_read": 1,
+      "footnotes_read": 1,
+      "dated_provisions_found": 2,
+      "substance_links_made": 2,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32017R2228",
+      "regulation": "Commission Regulation (EU) 2017/2228",
+      "source": "cache",
+      "annex_entries_read": 17,
+      "footnotes_read": 2,
+      "dated_provisions_found": 6,
+      "substance_links_made": 4,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32018R0885",
+      "regulation": "Commission Regulation (EU) 2018/885",
+      "source": "cache",
+      "annex_entries_read": 2,
+      "footnotes_read": 2,
+      "dated_provisions_found": 0,
+      "substance_links_made": 0,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32018R0978",
+      "regulation": "Commission Regulation (EU) 2018/978",
+      "source": "cache",
+      "annex_entries_read": 6,
+      "footnotes_read": 6,
+      "dated_provisions_found": 14,
+      "substance_links_made": 6,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32018R1847",
+      "regulation": "Commission Regulation (EU) 2018/1847",
+      "source": "cache",
+      "annex_entries_read": 2,
+      "footnotes_read": 1,
+      "dated_provisions_found": 7,
+      "substance_links_made": 3,
+      "substance_links_unresolved": 2
+    },
+    {
+      "celex": "32019R0680",
+      "regulation": "Commission Regulation (EU) 2019/680",
+      "source": "cache",
+      "annex_entries_read": 1,
+      "footnotes_read": 0,
+      "dated_provisions_found": 0,
+      "substance_links_made": 0,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32019R0681",
+      "regulation": "Commission Regulation (EU) 2019/681",
+      "source": "cache",
+      "annex_entries_read": 1,
+      "footnotes_read": 1,
+      "dated_provisions_found": 4,
+      "substance_links_made": 2,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32019R0698",
+      "regulation": "Commission Regulation (EU) 2019/698",
+      "source": "cache",
+      "annex_entries_read": 2,
+      "footnotes_read": 2,
+      "dated_provisions_found": 6,
+      "substance_links_made": 4,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32019R0831",
+      "regulation": "Commission Regulation (EU) 2019/831",
+      "source": "cache",
+      "annex_entries_read": 345,
+      "footnotes_read": 1,
+      "dated_provisions_found": 0,
+      "substance_links_made": 0,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32019R1257",
+      "regulation": "Commission Regulation (EU) 2019/1257",
+      "source": "cache",
+      "annex_entries_read": 0,
+      "footnotes_read": 0,
+      "dated_provisions_found": 0,
+      "substance_links_made": 0,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32019R1857",
+      "regulation": "Commission Regulation (EU) 2019/1857",
+      "source": "cache",
+      "annex_entries_read": 1,
+      "footnotes_read": 2,
+      "dated_provisions_found": 0,
+      "substance_links_made": 0,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32019R1858",
+      "regulation": "Commission Regulation (EU) 2019/1858",
+      "source": "cache",
+      "annex_entries_read": 1,
+      "footnotes_read": 0,
+      "dated_provisions_found": 0,
+      "substance_links_made": 0,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32019R1966",
+      "regulation": "Commission Regulation (EU) 2019/1966",
+      "source": "cache",
+      "annex_entries_read": 37,
+      "footnotes_read": 0,
+      "dated_provisions_found": 2,
+      "substance_links_made": 37,
+      "substance_links_unresolved": 1
+    },
+    {
+      "celex": "32020R1682",
+      "regulation": "Commission Regulation (EU) 2020/1682",
+      "source": "cache",
+      "annex_entries_read": 2,
+      "footnotes_read": 2,
+      "dated_provisions_found": 4,
+      "substance_links_made": 4,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32020R1683",
+      "regulation": "Commission Regulation (EU) 2020/1683",
+      "source": "cache",
+      "annex_entries_read": 10,
+      "footnotes_read": 1,
+      "dated_provisions_found": 1,
+      "substance_links_made": 3,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32020R1684",
+      "regulation": "Commission Regulation (EU) 2020/1684",
+      "source": "cache",
+      "annex_entries_read": 1,
+      "footnotes_read": 0,
+      "dated_provisions_found": 0,
+      "substance_links_made": 0,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32021R0850",
+      "regulation": "Commission Regulation (EU) 2021/850",
+      "source": "cache",
+      "annex_entries_read": 16,
+      "footnotes_read": 0,
+      "dated_provisions_found": 1,
+      "substance_links_made": 5,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32021R1099",
+      "regulation": "Commission Regulation (EU) 2021/1099",
+      "source": "cache",
+      "annex_entries_read": 2,
+      "footnotes_read": 1,
+      "dated_provisions_found": 2,
+      "substance_links_made": 2,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32021R1902",
+      "regulation": "Commission Regulation (EU) 2021/1902",
+      "source": "cache",
+      "annex_entries_read": 25,
+      "footnotes_read": 0,
+      "dated_provisions_found": 1,
+      "substance_links_made": 25,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32022R0135",
+      "regulation": "Commission Regulation (EU) 2022/135",
+      "source": "cache",
+      "annex_entries_read": 2,
+      "footnotes_read": 1,
+      "dated_provisions_found": 2,
+      "substance_links_made": 2,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32022R1176",
+      "regulation": "Commission Regulation (EU) 2022/1176",
+      "source": "cache",
+      "annex_entries_read": 2,
+      "footnotes_read": 3,
+      "dated_provisions_found": 2,
+      "substance_links_made": 4,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32022R1181",
+      "regulation": "Commission Regulation (EU) 2022/1181",
+      "source": "cache",
+      "annex_entries_read": 0,
+      "footnotes_read": 0,
+      "dated_provisions_found": 2,
+      "substance_links_made": 0,
+      "substance_links_unresolved": 2
+    },
+    {
+      "celex": "32022R1531",
+      "regulation": "Commission Regulation (EU) 2022/1531",
+      "source": "cache",
+      "annex_entries_read": 29,
+      "footnotes_read": 0,
+      "dated_provisions_found": 1,
+      "substance_links_made": 16,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32022R2195",
+      "regulation": "Commission Regulation (EU) 2022/2195",
+      "source": "cache",
+      "annex_entries_read": 5,
+      "footnotes_read": 1,
+      "dated_provisions_found": 4,
+      "substance_links_made": 16,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32023R1490",
+      "regulation": "Commission Regulation (EU) 2023/1490",
+      "source": "cache",
+      "annex_entries_read": 31,
+      "footnotes_read": 0,
+      "dated_provisions_found": 1,
+      "substance_links_made": 31,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32023R1545",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "source": "cache",
+      "annex_entries_read": 107,
+      "footnotes_read": 6,
+      "dated_provisions_found": 6,
+      "substance_links_made": 120,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32024R0858",
+      "regulation": "Commission Regulation (EU) 2024/858",
+      "source": "cache",
+      "annex_entries_read": 6,
+      "footnotes_read": 2,
+      "dated_provisions_found": 4,
+      "substance_links_made": 12,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32024R0996",
+      "regulation": "Commission Regulation (EU) 2024/996",
+      "source": "cache",
+      "annex_entries_read": 11,
+      "footnotes_read": 5,
+      "dated_provisions_found": 9,
+      "substance_links_made": 18,
+      "substance_links_unresolved": 1
+    },
+    {
+      "celex": "32025R0877",
+      "regulation": "Commission Regulation (EU) 2025/877",
+      "source": "cache",
+      "annex_entries_read": 23,
+      "footnotes_read": 0,
+      "dated_provisions_found": 1,
+      "substance_links_made": 22,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32026R0078",
+      "regulation": "Commission Regulation (EU) 2026/78",
+      "source": "cache",
+      "annex_entries_read": 30,
+      "footnotes_read": 0,
+      "dated_provisions_found": 1,
+      "substance_links_made": 21,
+      "substance_links_unresolved": 0
+    },
+    {
+      "celex": "32026R0909",
+      "regulation": "Commission Regulation (EU) 2026/909",
+      "source": "cache",
+      "annex_entries_read": 55,
+      "footnotes_read": 4,
+      "dated_provisions_found": 8,
+      "substance_links_made": 15,
+      "substance_links_unresolved": 0
+    }
+  ],
+  "entries": [
+    {
+      "id": "32026R0909:III:380:2027-01-01:placing",
+      "celex": "32026R0909",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2026/909",
+      "annex": "III",
+      "entry_reference": "380",
+      "inci_name": "Acetylated Vetiveria Zizanioides Root Extract",
+      "chemical_name": "Vetiveria zizanioides, ext., acetylated",
+      "names": [
+        {
+          "name": "Acetylated Vetiveria Zizanioides Root Extract",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "acetylated vetiveria zizanioides root extract"
+        },
+        {
+          "name": "Acetylated Vetiveria Zizanioides Root Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "acetylated vetiveria zizanioides root oil"
+        },
+        {
+          "name": "Vetiveria zizanioides, ext., acetylated",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "vetiveria zizanioides ext acetylated"
+        },
+        {
+          "name": "Oils, vetiver, acetylated",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "oils vetiver acetylated"
+        }
+      ],
+      "row_text": "380 Vetiveria zizanioides, ext., acetylated (**) Oils, vetiver, acetylated (**) Acetylated Vetiveria Zizanioides Root Extract; Acetylated Vetiveria Zizanioides Root Oil 84082-84-8/ 68917-34-0 282-031-1/- (a) Fragrance products (hydroalcoholic and non-hydroalcoholic, spray and non-spray) (b) Deodorant (c) Make-up products (d) Leave-on products (except (a), (b) and (c)) (e) Rinse-off products (a) 0,9 % (b) 0,05 % (c) 0,05 % (d) 0,1 % (e) 0,2 % For (a) – (e): stabilised with 1 % alpha- tocopherol (applies to raw materials).",
+      "date": "2027-01-01",
+      "stated_date": "2027-01-01",
+      "basis": "from",
+      "restriction": "placing",
+      "restriction_plain": "products that do not meet the new restriction cannot be placed on the Union market",
+      "resolution": "footnote marker (**)",
+      "provision": "From 1 January 2027 cosmetic products containing these substances and not complying with the restrictions shall not be placed on the Union market.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32026R0909:III:75:2027-01-01:placing",
+      "celex": "32026R0909",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2026/909",
+      "annex": "III",
+      "entry_reference": "75",
+      "inci_name": "Benzyl Salicylate",
+      "chemical_name": "2-hydroxybenzoic acid phenylmethyl ester",
+      "names": [
+        {
+          "name": "Benzyl Salicylate",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "benzyl salicylate"
+        },
+        {
+          "name": "2-hydroxybenzoic acid phenylmethyl ester",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "2 hydroxybenzoic acid phenylmethyl ester"
+        }
+      ],
+      "row_text": "‘75 2-hydroxybenzoic acid phenylmethyl ester (**) Benzyl Salicylate 118-58-1 204-262-9 (a) Fragrance products (hydroalcoholic and non-hydroalcoholic, spray and non-spray) (a) 4 % The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.’",
+      "date": "2027-01-01",
+      "stated_date": "2027-01-01",
+      "basis": "from",
+      "restriction": "placing",
+      "restriction_plain": "products that do not meet the new restriction cannot be placed on the Union market",
+      "resolution": "footnote marker (**)",
+      "provision": "From 1 January 2027 cosmetic products containing these substances and not complying with the restrictions shall not be placed on the Union market.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32026R0909:III:70:2027-01-01:placing",
+      "celex": "32026R0909",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2026/909",
+      "annex": "III",
+      "entry_reference": "70",
+      "inci_name": "Citral",
+      "chemical_name": "3,7-Dimethyl-2,6-octadienal",
+      "names": [
+        {
+          "name": "Citral",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "citral"
+        },
+        {
+          "name": "Geranial",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "geranial"
+        },
+        {
+          "name": "3,7-Dimethyl-2,6-octadienal",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "3 7 dimethyl 2 6 octadienal"
+        },
+        {
+          "name": "(E)-3,7- dimethylocta-2,6- dienal",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "e 3 7 dimethylocta 2 6 dienal"
+        },
+        {
+          "name": "(Z)-3,7- dimethylocta-2,6- dienal",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "z 3 7 dimethylocta 2 6 dienal"
+        }
+      ],
+      "row_text": "‘70 3,7-Dimethyl-2,6-octadienal (**) (E)-3,7- dimethylocta-2,6- dienal (***) (Z)-3,7- dimethylocta-2,6- dienal (***) Citral Geranial 5392-40-5 141-27-5 226-394-6 205-476-5 (a) Lip make-up products, lipstick, lip salves (a) 0,11 % The presence of the substance or substances shall be indicated as ‘Citral’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.’",
+      "date": "2027-01-01",
+      "stated_date": "2027-01-01",
+      "basis": "from",
+      "restriction": "placing",
+      "restriction_plain": "products that do not meet the new restriction cannot be placed on the Union market",
+      "resolution": "footnote marker (**)",
+      "provision": "From 1 January 2027 cosmetic products containing these substances and not complying with the restrictions shall not be placed on the Union market.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32026R0909:VI:28:2027-01-01:placing",
+      "celex": "32026R0909",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2026/909",
+      "annex": "VI",
+      "entry_reference": "28",
+      "inci_name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate (DHHB)",
+      "chemical_name": "Benzoic acid, 2-[4-(diethylamino)-2- hydroxybenzoyl]-, hexyl ester",
+      "names": [
+        {
+          "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate (DHHB)",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "diethylamino hydroxybenzoyl hexyl benzoate dhhb"
+        },
+        {
+          "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+          "source": "inci_glossary",
+          "form": "without the bracketed suffix",
+          "key": "diethylamino hydroxybenzoyl hexyl benzoate"
+        },
+        {
+          "name": "DHHB",
+          "source": "inci_glossary",
+          "form": "bracketed short form",
+          "key": "dhhb"
+        },
+        {
+          "name": "Benzoic acid, 2-[4-(diethylamino)-2- hydroxybenzoyl]-, hexyl ester",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "benzoic acid 2 4 diethylamino 2 hydroxybenzoyl hexyl ester"
+        }
+      ],
+      "row_text": "‘28 Benzoic acid, 2-[4-(diethylamino)-2- hydroxybenzoyl]-, hexyl ester (****) Diethylamino Hydroxybenzoyl Hexyl Benzoate (DHHB) 302776-68-7 443-860-6 10 % Di-n-hexyl phthalate (DnHexP) as an unavoidable trace impurity in DHHB must not exceed 10 ppm.’",
+      "date": "2027-01-01",
+      "stated_date": "2027-01-01",
+      "basis": "from",
+      "restriction": "placing",
+      "restriction_plain": "products that do not meet the new restriction cannot be placed on the Union market",
+      "resolution": "footnote marker (****)",
+      "provision": "From 1 January 2027 cosmetic products containing ‘Benzoic acid, 2-[4-(diethylamino)-2-hydroxybenzoyl]-, hexyl ester’ and not complying with the conditions shall not be placed on the Union market.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32026R0909:II:1752:2027-01-01:placing",
+      "celex": "32026R0909",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2026/909",
+      "annex": "II",
+      "entry_reference": "1752",
+      "inci_name": null,
+      "chemical_name": "Triphenyl Phosphate",
+      "names": [
+        {
+          "name": "Triphenyl Phosphate",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "triphenyl phosphate"
+        }
+      ],
+      "row_text": "‘1752 Triphenyl Phosphate (*) 115-86-6 204-112-2’;",
+      "date": "2027-01-01",
+      "stated_date": "2027-01-01",
+      "basis": "from",
+      "restriction": "placing",
+      "restriction_plain": "products that do not meet the new restriction cannot be placed on the Union market",
+      "resolution": "footnote marker (*)",
+      "provision": "From 1 January 2027 cosmetic products containing Triphenyl Phosphate and not complying with the restrictions shall not be placed on the Union market.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32026R0909:III:24:2027-01-01:placing",
+      "celex": "32026R0909",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2026/909",
+      "annex": "III",
+      "entry_reference": "24",
+      "inci_name": "Zinc Acetate",
+      "chemical_name": "Water-soluble zinc salts with the exception of zinc 4- hydroxy-benzene sulphonate (entry 25 of Annex III)",
+      "names": [
+        {
+          "name": "Zinc Acetate",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "zinc acetate"
+        },
+        {
+          "name": "Water-soluble zinc salts with the exception of zinc 4- hydroxy-benzene sulphonate (entry 25 of Annex III)",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "water soluble zinc salts with the exception of zinc 4 hydroxy benzene sulphonate entry 25 of annex iii"
+        },
+        {
+          "name": "Water-soluble zinc salts with the exception of zinc 4- hydroxy-benzene sulphonate",
+          "source": "chemical_name",
+          "form": "without the bracketed suffix",
+          "key": "water soluble zinc salts with the exception of zinc 4 hydroxy benzene sulphonate"
+        }
+      ],
+      "row_text": "‘24 Water-soluble zinc salts with the exception of zinc 4- hydroxy-benzene sulphonate (entry 25 of Annex III) (**) Zinc Acetate 557-34-6/ 5970-45-6 209-170-2/ - (a) Toothpaste intended for users above 1 year of age (a) 1 % (as zinc)",
+      "date": "2027-01-01",
+      "stated_date": "2027-01-01",
+      "basis": "from",
+      "restriction": "placing",
+      "restriction_plain": "products that do not meet the new restriction cannot be placed on the Union market",
+      "resolution": "footnote marker (**)",
+      "provision": "From 1 January 2027 cosmetic products containing these substances and not complying with the restrictions shall not be placed on the Union market.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32024R0996:III:376:2027-05-01:making_available",
+      "celex": "32024R0996",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2024/996",
+      "annex": "III",
+      "entry_reference": "376",
+      "inci_name": "Retinol",
+      "chemical_name": "(2E,4E,6E,8E)-3,7-dimethyl-9-(2,6,6-trimethylcyclohexen-1-yl)nona-2,4,6,8-tetraen-1-ol",
+      "names": [
+        {
+          "name": "Retinol",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "retinol"
+        },
+        {
+          "name": "(2E,4E,6E,8E)-3,7-dimethyl-9-(2,6,6-trimethylcyclohexen-1-yl)nona-2,4,6,8-tetraen-1-ol",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "2e 4e 6e 8e 3 7 dimethyl 9 2 6 6 trimethylcyclohexen 1 yl nona 2 4 6 8 tetraen 1 ol"
+        }
+      ],
+      "row_text": "376 (2E,4E,6E,8E)-3,7-dimethyl-9-(2,6,6-trimethylcyclohexen-1-yl)nona-2,4,6,8-tetraen-1-ol ( *3 ) Retinol 11103-57-4/ 68-26-8 234-328-2/ 200-683-7 (a) Body lotion (b) other leave-on and rinse-off products (a) 0,05 % Retinol Equivalent (RE) (b) 0,3 % RE For any cosmetic product containing Retinol, Retinyl Acetate or Retinyl Palmitate the following, labelling is obligatory: ‘ Contains Vitamin A. Consider your daily intake before use’.",
+      "date": "2027-05-01",
+      "stated_date": "2027-05-01",
+      "basis": "from",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*3)",
+      "provision": "From 1 May 2027 cosmetic products containing that substance and not complying with the conditions shall not be made available on the Union market.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32026R0909:III:380:2028-07-01:making_available",
+      "celex": "32026R0909",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2026/909",
+      "annex": "III",
+      "entry_reference": "380",
+      "inci_name": "Acetylated Vetiveria Zizanioides Root Extract",
+      "chemical_name": "Vetiveria zizanioides, ext., acetylated",
+      "names": [
+        {
+          "name": "Acetylated Vetiveria Zizanioides Root Extract",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "acetylated vetiveria zizanioides root extract"
+        },
+        {
+          "name": "Acetylated Vetiveria Zizanioides Root Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "acetylated vetiveria zizanioides root oil"
+        },
+        {
+          "name": "Vetiveria zizanioides, ext., acetylated",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "vetiveria zizanioides ext acetylated"
+        },
+        {
+          "name": "Oils, vetiver, acetylated",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "oils vetiver acetylated"
+        }
+      ],
+      "row_text": "380 Vetiveria zizanioides, ext., acetylated (**) Oils, vetiver, acetylated (**) Acetylated Vetiveria Zizanioides Root Extract; Acetylated Vetiveria Zizanioides Root Oil 84082-84-8/ 68917-34-0 282-031-1/- (a) Fragrance products (hydroalcoholic and non-hydroalcoholic, spray and non-spray) (b) Deodorant (c) Make-up products (d) Leave-on products (except (a), (b) and (c)) (e) Rinse-off products (a) 0,9 % (b) 0,05 % (c) 0,05 % (d) 0,1 % (e) 0,2 % For (a) – (e): stabilised with 1 % alpha- tocopherol (applies to raw materials).",
+      "date": "2028-07-01",
+      "stated_date": "2028-07-01",
+      "basis": "from",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (**)",
+      "provision": "From 1 July 2028 cosmetic products containing these substances and not complying with the restrictions shall not be made available on the Union market.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32026R0909:III:75:2028-07-01:making_available",
+      "celex": "32026R0909",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2026/909",
+      "annex": "III",
+      "entry_reference": "75",
+      "inci_name": "Benzyl Salicylate",
+      "chemical_name": "2-hydroxybenzoic acid phenylmethyl ester",
+      "names": [
+        {
+          "name": "Benzyl Salicylate",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "benzyl salicylate"
+        },
+        {
+          "name": "2-hydroxybenzoic acid phenylmethyl ester",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "2 hydroxybenzoic acid phenylmethyl ester"
+        }
+      ],
+      "row_text": "‘75 2-hydroxybenzoic acid phenylmethyl ester (**) Benzyl Salicylate 118-58-1 204-262-9 (a) Fragrance products (hydroalcoholic and non-hydroalcoholic, spray and non-spray) (a) 4 % The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.’",
+      "date": "2028-07-01",
+      "stated_date": "2028-07-01",
+      "basis": "from",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (**)",
+      "provision": "From 1 July 2028 cosmetic products containing these substances and not complying with the restrictions shall not be made available on the Union market.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32026R0909:III:70:2028-07-01:making_available",
+      "celex": "32026R0909",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2026/909",
+      "annex": "III",
+      "entry_reference": "70",
+      "inci_name": "Citral",
+      "chemical_name": "3,7-Dimethyl-2,6-octadienal",
+      "names": [
+        {
+          "name": "Citral",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "citral"
+        },
+        {
+          "name": "Geranial",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "geranial"
+        },
+        {
+          "name": "3,7-Dimethyl-2,6-octadienal",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "3 7 dimethyl 2 6 octadienal"
+        },
+        {
+          "name": "(E)-3,7- dimethylocta-2,6- dienal",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "e 3 7 dimethylocta 2 6 dienal"
+        },
+        {
+          "name": "(Z)-3,7- dimethylocta-2,6- dienal",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "z 3 7 dimethylocta 2 6 dienal"
+        }
+      ],
+      "row_text": "‘70 3,7-Dimethyl-2,6-octadienal (**) (E)-3,7- dimethylocta-2,6- dienal (***) (Z)-3,7- dimethylocta-2,6- dienal (***) Citral Geranial 5392-40-5 141-27-5 226-394-6 205-476-5 (a) Lip make-up products, lipstick, lip salves (a) 0,11 % The presence of the substance or substances shall be indicated as ‘Citral’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.’",
+      "date": "2028-07-01",
+      "stated_date": "2028-07-01",
+      "basis": "from",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (**)",
+      "provision": "From 1 July 2028 cosmetic products containing these substances and not complying with the restrictions shall not be made available on the Union market.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32026R0909:VI:28:2028-07-01:making_available",
+      "celex": "32026R0909",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2026/909",
+      "annex": "VI",
+      "entry_reference": "28",
+      "inci_name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate (DHHB)",
+      "chemical_name": "Benzoic acid, 2-[4-(diethylamino)-2- hydroxybenzoyl]-, hexyl ester",
+      "names": [
+        {
+          "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate (DHHB)",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "diethylamino hydroxybenzoyl hexyl benzoate dhhb"
+        },
+        {
+          "name": "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+          "source": "inci_glossary",
+          "form": "without the bracketed suffix",
+          "key": "diethylamino hydroxybenzoyl hexyl benzoate"
+        },
+        {
+          "name": "DHHB",
+          "source": "inci_glossary",
+          "form": "bracketed short form",
+          "key": "dhhb"
+        },
+        {
+          "name": "Benzoic acid, 2-[4-(diethylamino)-2- hydroxybenzoyl]-, hexyl ester",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "benzoic acid 2 4 diethylamino 2 hydroxybenzoyl hexyl ester"
+        }
+      ],
+      "row_text": "‘28 Benzoic acid, 2-[4-(diethylamino)-2- hydroxybenzoyl]-, hexyl ester (****) Diethylamino Hydroxybenzoyl Hexyl Benzoate (DHHB) 302776-68-7 443-860-6 10 % Di-n-hexyl phthalate (DnHexP) as an unavoidable trace impurity in DHHB must not exceed 10 ppm.’",
+      "date": "2028-07-01",
+      "stated_date": "2028-07-01",
+      "basis": "from",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (****)",
+      "provision": "From 1 July 2028 cosmetic products containing ‘Benzoic acid, 2-[4-(diethylamino)-2-hydroxybenzoyl]-, hexyl ester’ and not complying with the conditions shall not be made available on the Union market.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32026R0909:II:1752:2028-07-01:making_available",
+      "celex": "32026R0909",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2026/909",
+      "annex": "II",
+      "entry_reference": "1752",
+      "inci_name": null,
+      "chemical_name": "Triphenyl Phosphate",
+      "names": [
+        {
+          "name": "Triphenyl Phosphate",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "triphenyl phosphate"
+        }
+      ],
+      "row_text": "‘1752 Triphenyl Phosphate (*) 115-86-6 204-112-2’;",
+      "date": "2028-07-01",
+      "stated_date": "2028-07-01",
+      "basis": "from",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*)",
+      "provision": "From 1 July 2028 cosmetic products containing Triphenyl Phosphate and not complying with the restrictions shall not be made available on the Union market.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32026R0909:III:24:2028-07-01:making_available",
+      "celex": "32026R0909",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2026/909",
+      "annex": "III",
+      "entry_reference": "24",
+      "inci_name": "Zinc Acetate",
+      "chemical_name": "Water-soluble zinc salts with the exception of zinc 4- hydroxy-benzene sulphonate (entry 25 of Annex III)",
+      "names": [
+        {
+          "name": "Zinc Acetate",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "zinc acetate"
+        },
+        {
+          "name": "Water-soluble zinc salts with the exception of zinc 4- hydroxy-benzene sulphonate (entry 25 of Annex III)",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "water soluble zinc salts with the exception of zinc 4 hydroxy benzene sulphonate entry 25 of annex iii"
+        },
+        {
+          "name": "Water-soluble zinc salts with the exception of zinc 4- hydroxy-benzene sulphonate",
+          "source": "chemical_name",
+          "form": "without the bracketed suffix",
+          "key": "water soluble zinc salts with the exception of zinc 4 hydroxy benzene sulphonate"
+        }
+      ],
+      "row_text": "‘24 Water-soluble zinc salts with the exception of zinc 4- hydroxy-benzene sulphonate (entry 25 of Annex III) (**) Zinc Acetate 557-34-6/ 5970-45-6 209-170-2/ - (a) Toothpaste intended for users above 1 year of age (a) 1 % (as zinc)",
+      "date": "2028-07-01",
+      "stated_date": "2028-07-01",
+      "basis": "from",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (**)",
+      "provision": "From 1 July 2028 cosmetic products containing these substances and not complying with the restrictions shall not be made available on the Union market.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32023R1545:III:175:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "175",
+      "inci_name": "3-Propylidenephthalide",
+      "chemical_name": "3-Propylidene-1(3H)-isobenzofuranone",
+      "names": [
+        {
+          "name": "3-Propylidenephthalide",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "3 propylidenephthalide"
+        },
+        {
+          "name": "3-Propylidene-1(3H)-isobenzofuranone",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "3 propylidene 1 3h isobenzofuranone"
+        }
+      ],
+      "row_text": "175 3-Propylidene-1(3H)-isobenzofuranone; 3-Propylidenephthalide ( *2 ) 3-Propylidenephthalide 17369-59-4 241-402-8 (a) Oral products (b) Other products b) 0,01 % (a) The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*2)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restrictions may, provided that they comply with the restrictions applicable on 15 August 2023, be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32023R1545:III:46:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "46",
+      "inci_name": "6-Methyl Coumarin",
+      "chemical_name": "6-Methylcoumarin",
+      "names": [
+        {
+          "name": "6-Methyl Coumarin",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "6 methyl coumarin"
+        },
+        {
+          "name": "6-Methylcoumarin",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "6 methylcoumarin"
+        }
+      ],
+      "row_text": "46 6-Methylcoumarin ( *2 ) 6-Methyl Coumarin 92-48-8 202-158-8 Oral products 0,003 % The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*2)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restrictions may, provided that they comply with the restrictions applicable on 15 August 2023, be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32023R1545:III:157:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "157",
+      "inci_name": "Alpha-Damascone",
+      "chemical_name": "1-(2,6,6-trimethyl-2-cyclohexen-1-yl)-2-buten-1-one (16)",
+      "names": [
+        {
+          "name": "Alpha-Damascone",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "alpha damascone"
+        },
+        {
+          "name": "cis-Rose ketone 1",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "cis rose ketone 1"
+        },
+        {
+          "name": "1-(2,6,6-trimethyl-2-cyclohexen-1-yl)-2-buten-1-one (16)",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "1 2 6 6 trimethyl 2 cyclohexen 1 yl 2 buten 1 one 16"
+        },
+        {
+          "name": "1-(2,6,6-trimethyl-2-cyclohexen-1-yl)-2-buten-1-one",
+          "source": "chemical_name",
+          "form": "without the bracketed suffix",
+          "key": "1 2 6 6 trimethyl 2 cyclohexen 1 yl 2 buten 1 one"
+        },
+        {
+          "name": "16",
+          "source": "chemical_name",
+          "form": "bracketed short form",
+          "key": "16"
+        }
+      ],
+      "row_text": "157 1-(2,6,6-trimethyl-2-cyclohexen-1-yl)-2-buten-1-one (16) ( *2 ) Alpha-Damascone; cis-Rose ketone 1 43052-87-5/ 23726-94-5 -/ 245-845-8 (a) Oral products (b) Other products (b) 0,02 % (a) (b) The presence of the substance or substances shall be indicated as ‘Rose Ketones’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*2)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restrictions may, provided that they comply with the restrictions applicable on 15 August 2023, be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32023R1545:III:347:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "347",
+      "inci_name": "Cananga Odorata Flower Extract",
+      "chemical_name": "Cananga odorata flower oil and extract",
+      "names": [
+        {
+          "name": "Cananga Odorata Flower Extract",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "cananga odorata flower extract"
+        },
+        {
+          "name": "Cananga Odorata Flower Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "cananga odorata flower oil"
+        },
+        {
+          "name": "Cananga odorata flower oil and extract",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "cananga odorata flower oil and extract"
+        },
+        {
+          "name": "Ylang Ylang flower oil and extract",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "ylang ylang flower oil and extract"
+        }
+      ],
+      "row_text": "347 Cananga odorata flower oil and extract; Ylang Ylang flower oil and extract ( *4 ) Cananga Odorata Flower Extract; Cananga Odorata Flower Oil 83863-30-3/ 8006-81-3/ 68606-83-7/ 93686-30-7 281-092-1/ -/ -/ 297-681-1 The presence of the substance or substances shall be indicated as ‘Cananga Odorata Oil/Extract’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration exceeds of the substance or substances: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32023R1545:III:122:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "122",
+      "inci_name": "Cedrus Atlantica Bark Extract",
+      "chemical_name": "Cedrus atlantica oil and extract",
+      "names": [
+        {
+          "name": "Cedrus Atlantica Bark Extract",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "cedrus atlantica bark extract"
+        },
+        {
+          "name": "Cedrus Atlantica Bark Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "cedrus atlantica bark oil"
+        },
+        {
+          "name": "Cedrus Atlantica Bark Water",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "cedrus atlantica bark water"
+        },
+        {
+          "name": "Cedrus Atlantica Leaf Extract",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "cedrus atlantica leaf extract"
+        },
+        {
+          "name": "Cedrus Atlantica Wood Extract",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "cedrus atlantica wood extract"
+        },
+        {
+          "name": "Cedrus Atlantica Wood Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "cedrus atlantica wood oil"
+        },
+        {
+          "name": "Cedrus atlantica oil and extract",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "cedrus atlantica oil and extract"
+        }
+      ],
+      "row_text": "122 Cedrus atlantica oil and extract ( *2 ) Cedrus Atlantica Bark Extract; Cedrus Atlantica Bark Oil; Cedrus Atlantica Bark Water; Cedrus Atlantica Leaf Extract; Cedrus Atlantica Wood Extract; Cedrus Atlantica Wood Oil 92201-55-3/ 8023-85-6 295-985-9/ - The presence of the substance or substances shall be indicated as ‘Cedrus Atlantica Oil/ Extract’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products. The peroxide value shall be less than 10 mmoles/L (15)",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*2)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restrictions may, provided that they comply with the restrictions applicable on 15 August 2023, be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32026R0909:III:70:2028-08-01:making_available",
+      "celex": "32026R0909",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2026/909",
+      "annex": "III",
+      "entry_reference": "70",
+      "inci_name": "Citral",
+      "chemical_name": "3,7-Dimethyl-2,6-octadienal",
+      "names": [
+        {
+          "name": "Citral",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "citral"
+        },
+        {
+          "name": "Geranial",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "geranial"
+        },
+        {
+          "name": "3,7-Dimethyl-2,6-octadienal",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "3 7 dimethyl 2 6 octadienal"
+        },
+        {
+          "name": "(E)-3,7- dimethylocta-2,6- dienal",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "e 3 7 dimethylocta 2 6 dienal"
+        },
+        {
+          "name": "(Z)-3,7- dimethylocta-2,6- dienal",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "z 3 7 dimethylocta 2 6 dienal"
+        }
+      ],
+      "row_text": "‘70 3,7-Dimethyl-2,6-octadienal (**) (E)-3,7- dimethylocta-2,6- dienal (***) (Z)-3,7- dimethylocta-2,6- dienal (***) Citral Geranial 5392-40-5 141-27-5 226-394-6 205-476-5 (a) Lip make-up products, lipstick, lip salves (a) 0,11 % The presence of the substance or substances shall be indicated as ‘Citral’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.’",
+      "date": "2028-08-01",
+      "stated_date": "2028-08-01",
+      "basis": "from",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (***)",
+      "provision": "From 1 August 2028 cosmetic products containing these substances and not complying with the restrictions shall not be made available on the Union market.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32023R1545:III:350:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "350",
+      "inci_name": "Citrus Aurantium Amara Flower Oil",
+      "chemical_name": "Citrus aurantium amara and dulcis flower oil",
+      "names": [
+        {
+          "name": "Citrus Aurantium Amara Flower Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "citrus aurantium amara flower oil"
+        },
+        {
+          "name": "Citrus aurantium amara and dulcis flower oil",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "citrus aurantium amara and dulcis flower oil"
+        }
+      ],
+      "row_text": "350 Citrus aurantium amara and dulcis flower oil ( *4 ) Citrus Aurantium Amara Flower Oil 72968-50-4 277-143-2 The presence of the substance or substances shall be indicated as ‘Citrus Aurantium Flower Oil’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32023R1545:III:351:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "351",
+      "inci_name": "Citrus Aurantium Amara Peel Oil",
+      "chemical_name": "Citrus aurantium amara and dulcis peel oil",
+      "names": [
+        {
+          "name": "Citrus Aurantium Amara Peel Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "citrus aurantium amara peel oil"
+        },
+        {
+          "name": "Citrus aurantium amara and dulcis peel oil",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "citrus aurantium amara and dulcis peel oil"
+        }
+      ],
+      "row_text": "351 Citrus aurantium amara and dulcis peel oil ( *4 ) Citrus Aurantium Amara Peel Oil 68916-04-1/ 72968-50-4 -/ 277-143-2 The presence of the substance or substances shall be indicated as ‘Citrus Aurantium Peel Oil’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32023R1545:III:354:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "354",
+      "inci_name": "Cymbopogon Schoenanthus Oil",
+      "chemical_name": "Cymbopogon citratus / schoenanthus/flexuosus oils",
+      "names": [
+        {
+          "name": "Cymbopogon Schoenanthus Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "cymbopogon schoenanthus oil"
+        },
+        {
+          "name": "Cymbopogon citratus / schoenanthus/flexuosus oils",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "cymbopogon citratus schoenanthus flexuosus oils"
+        }
+      ],
+      "row_text": "354 Cymbopogon citratus / schoenanthus/flexuosus oils ( *4 ) Cymbopogon Schoenanthus Oil 8007-02-1/ 89998-16-3 -/ 289-754-1 The presence of the substance or substances shall be indicated as ‘Lemongrass Oil’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32023R1545:III:355:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "355",
+      "inci_name": "Eucalyptus Globulus Leaf Oil",
+      "chemical_name": "Eucalyptus globulus oil",
+      "names": [
+        {
+          "name": "Eucalyptus Globulus Leaf Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "eucalyptus globulus leaf oil"
+        },
+        {
+          "name": "Eucalyptus globulus oil",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "eucalyptus globulus oil"
+        }
+      ],
+      "row_text": "355 Eucalyptus globulus oil ( *4 ) Eucalyptus Globulus Leaf Oil; 97926-40-4/ 8000-48-4/ 308-257-3/ 616-775-9/ The presence of the substance or substances shall be indicated as ‘Eucalyptus Globulus Oil’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32023R1545:III:356:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "356",
+      "inci_name": "Eugenia Caryophyllus Leaf Oil",
+      "chemical_name": "Eugenia caryophyllus oil",
+      "names": [
+        {
+          "name": "Eugenia Caryophyllus Leaf Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "eugenia caryophyllus leaf oil"
+        },
+        {
+          "name": "Eugenia caryophyllus oil",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "eugenia caryophyllus oil"
+        }
+      ],
+      "row_text": "356 Eugenia caryophyllus oil ( *4 ) Eugenia Caryophyllus Leaf Oil 8000-34-8 / 8015-97-2/ 84961-50-2 616-772-2/ -/ 284-638-7 The presence of the substance or substances shall be indicated as ‘Eugenia Caryophyllus Oil’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32023R1545:III:70:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "70",
+      "inci_name": "Geranial",
+      "chemical_name": "(E)-3,7-dimethylocta-2,6-dienal",
+      "names": [
+        {
+          "name": "Geranial",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "geranial"
+        },
+        {
+          "name": "(E)-3,7-dimethylocta-2,6-dienal",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "e 3 7 dimethylocta 2 6 dienal"
+        }
+      ],
+      "row_text": "(E)-3,7-dimethylocta-2,6-dienal ( *1 ) Geranial 141-27-5 205-476-5",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*1)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restrictions may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32023R1545:III:357:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "357",
+      "inci_name": "Jasminum Grandiflorum Flower Extract",
+      "chemical_name": "Jasminum grandiflorum / officinale oil and extract",
+      "names": [
+        {
+          "name": "Jasminum Grandiflorum Flower Extract",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "jasminum grandiflorum flower extract"
+        },
+        {
+          "name": "Jasminum Officinale Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "jasminum officinale oil"
+        },
+        {
+          "name": "Jasminum Officinale Flower Extract",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "jasminum officinale flower extract"
+        },
+        {
+          "name": "Jasminum grandiflorum / officinale oil and extract",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "jasminum grandiflorum officinale oil and extract"
+        }
+      ],
+      "row_text": "357 Jasminum grandiflorum / officinale oil and extract ( *4 ) Jasminum Grandiflorum Flower Extract; Jasminum Officinale Oil; Jasminum Officinale Flower Extract 84776-64-7/ 90045-94-6/ 8022-96-6/ 8024-43-9 90045-94-6 283-993-5/ 289-960-1/ -/ - 289-960-1 The presence of the substance or substances shall be indicated as ‘Jasmine Oil/Extract’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32023R1545:III:358:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "358",
+      "inci_name": "Juniperus Virginiana Oil",
+      "chemical_name": "Juniperus virginiana oil",
+      "names": [
+        {
+          "name": "Juniperus Virginiana Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "juniperus virginiana oil"
+        },
+        {
+          "name": "Juniperus Virginiana Wood Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "juniperus virginiana wood oil"
+        }
+      ],
+      "row_text": "358 Juniperus virginiana oil ( *4 ) Juniperus Virginiana Oil; Juniperus Virginiana Wood Oil 8000-27-9 / 85085-41-2 -/ 285-370-3 The presence of the substance or substances shall be indicated as ‘Juniperus Virginiana Oil’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32023R1545:III:360:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "360",
+      "inci_name": "Lavandula Angustifolia Oil",
+      "chemical_name": "Lavandula angustifolia oil/extract",
+      "names": [
+        {
+          "name": "Lavandula Angustifolia Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "lavandula angustifolia oil"
+        },
+        {
+          "name": "Lavandula Angustifolia Flower/Leaf/Stem Extract",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "lavandula angustifolia flower leaf stem extract"
+        },
+        {
+          "name": "Lavandula angustifolia oil/extract",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "lavandula angustifolia oil extract"
+        }
+      ],
+      "row_text": "Lavandula angustifolia oil/extract ( *4 ) Lavandula Angustifolia Oil; Lavandula Angustifolia Flower/Leaf/Stem Extract 84776-65-8/ 8000-28-0/ 90063-37-9 283-994-0/ -/ 289-995-2",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32023R1545:III:196:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "196",
+      "inci_name": "Lippia citriodora absolute",
+      "chemical_name": "Verbena absolute",
+      "names": [
+        {
+          "name": "Lippia citriodora absolute",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "lippia citriodora absolute"
+        },
+        {
+          "name": "Verbena absolute",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "verbena absolute"
+        }
+      ],
+      "row_text": "196 Verbena absolute ( *2 ) ( *3 ) Lippia citriodora absolute 8024-12-2/ 85116-63-8 - 285-515-0 0,2 % The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*2)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restrictions may, provided that they comply with the restrictions applicable on 15 August 2023, be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32023R1545:III:324:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "324",
+      "inci_name": "Methyl Salicylate",
+      "chemical_name": "Methyl 2-hydroxybenzoate",
+      "names": [
+        {
+          "name": "Methyl Salicylate",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "methyl salicylate"
+        },
+        {
+          "name": "Methyl 2-hydroxybenzoate",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "methyl 2 hydroxybenzoate"
+        }
+      ],
+      "row_text": "324 Methyl 2-hydroxybenzoate ( *2 ) Methyl Salicylate 119-36-8 204-317-7 (a) Leave-on skin products (except face makeup, spray/aerosol body lotion, spray/aerosol deodorant and hydroalcoholic-based fragrances) and leave on hair products (except spray/aerosol products) (a) 0,06 % Not to be used in preparations for children under 6 years of age, with the exception of (k) “Toothpaste”. The presence of the substance shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when its concentration exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*2)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restrictions may, provided that they comply with the restrictions applicable on 15 August 2023, be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32023R1545:III:154:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "154",
+      "inci_name": "Myroxylon Balsamum Pereirae Balsam Extract",
+      "chemical_name": "Myroxylon balsamum var. pereirae",
+      "names": [
+        {
+          "name": "Myroxylon Balsamum Pereirae Balsam Extract",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "myroxylon balsamum pereirae balsam extract"
+        },
+        {
+          "name": "Myroxylon Balsamum Pereirae Balsam Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "myroxylon balsamum pereirae balsam oil"
+        },
+        {
+          "name": "Myroxylon Pereirae Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "myroxylon pereirae oil"
+        },
+        {
+          "name": "Myroxylon Pereirae Resin Extract",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "myroxylon pereirae resin extract"
+        },
+        {
+          "name": "Myroxylon Pereirae Resin",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "myroxylon pereirae resin"
+        },
+        {
+          "name": "Myroxylon balsamum var. pereirae",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "myroxylon balsamum var pereirae"
+        },
+        {
+          "name": "extracts and distillates",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "extracts and distillates"
+        },
+        {
+          "name": "Balsam Peru oil, absolute and anhydrol (Balsam Oil Peru)",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "balsam peru oil absolute and anhydrol balsam oil peru"
+        },
+        {
+          "name": "Balsam Peru oil, absolute and anhydrol",
+          "source": "chemical_name",
+          "form": "without the bracketed suffix",
+          "key": "balsam peru oil absolute and anhydrol"
+        }
+      ],
+      "row_text": "154 Myroxylon balsamum var. pereirae ; extracts and distillates; Balsam Peru oil, absolute and anhydrol (Balsam Oil Peru) ( *2 ) Myroxylon Balsamum Pereirae Balsam Extract; Myroxylon Balsamum Pereirae Balsam Oil; Myroxylon Pereirae Oil; Myroxylon Pereirae Resin Extract; Myroxylon Pereirae Resin 8007-00-9 232-352-8 0,4 % The presence of the substance or substances shall be indicated as ‘Myroxylon Pereirae Oil/ Extract’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*2)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restrictions may, provided that they comply with the restrictions applicable on 15 August 2023, be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32023R1545:III:363:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "363",
+      "inci_name": "Narcissus Poeticus Extract",
+      "chemical_name": "Narcissus poeticus/pseudonarcissus/jonquilla/tazetta extract",
+      "names": [
+        {
+          "name": "Narcissus Poeticus Extract",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "narcissus poeticus extract"
+        },
+        {
+          "name": "Narcissus poeticus/pseudonarcissus/jonquilla/tazetta extract",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "narcissus poeticus pseudonarcissus jonquilla tazetta extract"
+        }
+      ],
+      "row_text": "363 Narcissus poeticus/pseudonarcissus/jonquilla/tazetta extract ( *4 ) Narcissus Poeticus Extract 90064-26-9/ 68917-12-4 290-087-3/ - The presence of the substance or substances shall be indicated as ‘Narcissus Extract’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products.",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32023R1545:III:371:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "371",
+      "inci_name": "Pinene",
+      "chemical_name": "2,6,6-Trimethylbi-cyclo[3.1.1]hept-2-ene (alpha-Pinene)",
+      "names": [
+        {
+          "name": "Pinene",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "pinene"
+        },
+        {
+          "name": "2,6,6-Trimethylbi-cyclo[3.1.1]hept-2-ene (alpha-Pinene)",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "2 6 6 trimethylbi cyclo 3 1 1 hept 2 ene alpha pinene"
+        },
+        {
+          "name": "2,6,6-Trimethylbi-cyclo[3.1.1]hept-2-ene",
+          "source": "chemical_name",
+          "form": "without the bracketed suffix",
+          "key": "2 6 6 trimethylbi cyclo 3 1 1 hept 2 ene"
+        },
+        {
+          "name": "alpha-Pinene",
+          "source": "chemical_name",
+          "form": "bracketed short form",
+          "key": "alpha pinene"
+        },
+        {
+          "name": "6,6-Dimethyl- 2-methylenebicyclo[3.1.1]heptane (beta-Pinene)",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "6 6 dimethyl 2 methylenebicyclo 3 1 1 heptane beta pinene"
+        },
+        {
+          "name": "6,6-Dimethyl- 2-methylenebicyclo[3.1.1]heptane",
+          "source": "chemical_name",
+          "form": "without the bracketed suffix",
+          "key": "6 6 dimethyl 2 methylenebicyclo 3 1 1 heptane"
+        },
+        {
+          "name": "beta-Pinene",
+          "source": "chemical_name",
+          "form": "bracketed short form",
+          "key": "beta pinene"
+        }
+      ],
+      "row_text": "371 2,6,6-Trimethylbi-cyclo[3.1.1]hept-2-ene (alpha-Pinene); 6,6-Dimethyl- 2-methylenebicyclo[3.1.1]heptane (beta-Pinene) ( *4 ) ( *5 ) Pinene 80-56-8/ 7785-70-8/ 127-91-3/ 18172-67-3 201-291-9/ 232-087-8/ 204-872-5/ 242-060-2 The presence of the substance or the substances shall be indicated in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or the substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products. The peroxide value shall be less than 10 mmoles/L (15)",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32023R1545:III:109:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "109",
+      "inci_name": "Pinus Mugo Leaf Oil",
+      "chemical_name": "Pinus mugo leaf and twig oil and extract",
+      "names": [
+        {
+          "name": "Pinus Mugo Leaf Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "pinus mugo leaf oil"
+        },
+        {
+          "name": "Pinus Mugo Twig Leaf Extract",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "pinus mugo twig leaf extract"
+        },
+        {
+          "name": "Pinus Mugo Twig Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "pinus mugo twig oil"
+        },
+        {
+          "name": "Pinus mugo leaf and twig oil and extract",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "pinus mugo leaf and twig oil and extract"
+        }
+      ],
+      "row_text": "109 Pinus mugo leaf and twig oil and extract ( *2 ) Pinus Mugo Leaf Oil; Pinus Mugo Twig Leaf Extract; Pinus Mugo Twig Oil 90082-72-7 290-163-6 The presence of the substance or substances shall be indicated as ‘Pinus Mugo’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products. The peroxide value shall be less than 10 mmoles/L (15)",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*2)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restrictions may, provided that they comply with the restrictions applicable on 15 August 2023, be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32023R1545:III:114:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "114",
+      "inci_name": "Pinus Pumila Needle Extract",
+      "chemical_name": "Pinus pumila leaf and twig oil and extract",
+      "names": [
+        {
+          "name": "Pinus Pumila Needle Extract",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "pinus pumila needle extract"
+        },
+        {
+          "name": "Pinus Pumila Twig Leaf Extract",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "pinus pumila twig leaf extract"
+        },
+        {
+          "name": "Pinus Pumila Twig Leaf Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "pinus pumila twig leaf oil"
+        },
+        {
+          "name": "Pinus pumila leaf and twig oil and extract",
+          "source": "chemical_name",
+          "form": "as written",
+          "key": "pinus pumila leaf and twig oil and extract"
+        }
+      ],
+      "row_text": "114 Pinus pumila leaf and twig oil and extract ( *2 ) Pinus Pumila Needle Extract; Pinus Pumila Twig Leaf Extract; Pinus Pumila Twig Leaf Oil 97676-05-6 307-681-6 The presence of the substance or substances shall be indicated as ‘Pinus Pumila’ in the list of ingredients referred to in Article 19(1), point (g), when the concentration of the substance or substances exceeds: — 0,001 % in leave-on products — 0,01 % in rinse-off products. The peroxide value shall be less than 10 mmoles/L (15)",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*2)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restrictions may, provided that they comply with the restrictions applicable on 15 August 2023, be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "use_restriction"
+    },
+    {
+      "id": "32023R1545:III:366:2028-08-01:making_available",
+      "celex": "32023R1545",
+      "table_layout": "column headings",
+      "regulation": "Commission Regulation (EU) 2023/1545",
+      "annex": "III",
+      "entry_reference": "366",
+      "inci_name": "Rosa Rugosa Flower Oil",
+      "chemical_name": "Rosa rugosa flower oil",
+      "names": [
+        {
+          "name": "Rosa Rugosa Flower Oil",
+          "source": "inci_glossary",
+          "form": "as written",
+          "key": "rosa rugosa flower oil"
+        }
+      ],
+      "row_text": "Rosa rugosa flower oil ( *4 ) Rosa Rugosa Flower Oil 92347-25-6 296-213-3",
+      "date": "2028-08-01",
+      "stated_date": "2028-07-31",
+      "basis": "until",
+      "restriction": "making_available",
+      "restriction_plain": "products that do not meet the new restriction cannot be sold in the Union, including stock already made",
+      "resolution": "footnote marker (*4)",
+      "provision": "Cosmetic products containing that substance that do not comply with the restriction(s) may be placed on the Union market until 31 July 2026 and made available on the Union market until 31 July 2028.",
+      "obligation": "use_restriction"
+    }
+  ]
+}
