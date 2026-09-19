@@ -5,6 +5,10 @@ an EU rule that carries a date still ahead of it, and what that date is.
 
 It does not say whether a product may be sold. It reports dates.
 
+What it found across 17,595 real published ingredient lists, and the three wrong
+readings of the law it took to get there, is written up in
+[Lawful today, and non-compliant on 1 January 2027](https://medium.com/@aryawaiga0/lawful-today-and-non-compliant-on-1-january-2027-6939bdbee908).
+
 ## Why this one exists
 
 The other tools in this set check what is wrong with a document today. A cosmetic
