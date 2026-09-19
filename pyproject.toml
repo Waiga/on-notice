@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "on-notice"
-version = "0.1.1"
+version = "0.1.2"
 description = "Which cosmetic ingredients have an EU deadline that has not arrived yet"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -26,6 +26,10 @@ classifiers = [
   "Programming Language :: Python :: 3.13",
   "Topic :: Utilities",
 ]
+
+[project.urls]
+Homepage = "https://github.com/Waiga/on-notice"
+Issues = "https://github.com/Waiga/on-notice/issues"
 
 [project.scripts]
 on-notice = "on_notice.cli:main"

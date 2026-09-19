@@ -174,7 +174,30 @@ class Register(object):
                     or self.not_recovered)
 
     def distinct_names(self):
+        """How many register names can match a printed label.
+
+        A name count, not a substance count. One substance carries several
+        names, so this number is always the larger of the two and the two are
+        not interchangeable.
+        """
         return len(self._exact)
+
+    @staticmethod
+    def substance_of(entry):
+        """The substance an entry is about, as the register itself names it.
+
+        An entry carries an INCI name, one or more chemical names, and the
+        glossary synonyms. Citral and Geranial are two glossary names for one
+        substance, so counting the name that happened to match turns one
+        substance into two. ``inci_name`` is the identity that survives that.
+        The two Annex II entries for Triphenyl Phosphate carry no INCI name at
+        all, so the chemical name stands in for them.
+        """
+        return entry.get("inci_name") or entry.get("chemical_name")
+
+    def distinct_substances(self):
+        """How many substances the shipped register is about."""
+        return len({self.substance_of(entry) for entry in self.entries})
 
     # -- matching -----------------------------------------------------------
 

@@ -29,7 +29,7 @@ Exit code is 1 when something on the list has a date, 0 when nothing does, 2 whe
 the register cannot be read.
 
 ```
-on-notice 0.1.1   register built 2026-09-18
+on-notice 0.1.2   register built 2026-09-18
 read 5 ingredient(s) from night-cream.txt
 
 2 of them are named in an EU rule with a date still ahead of it.
@@ -45,34 +45,78 @@ The register ships inside the package. Nothing leaves your machine.
 
 ## What it was measured against
 
-The corpus is the Open Beauty Facts CSV export, `en.openbeautyfacts.org.products.csv.gz`,
-the copy generated on 18 September 2026 at 00:22 GMT, 64,237 product rows.
-`scripts/measure_corpus.py` reproduces every number below from it. 17,626 of those
-rows carry an ingredient list. 31 of those lists yielded no readable ingredient
-names at all, leaving **17,595 lists read**, median 17 ingredients each. Nothing
-in it was written by this tool or by anybody connected to it.
+The corpus is the Open Beauty Facts export, `en.openbeautyfacts.org.products.csv.gz`.
+The copy these numbers came from is 17,884,435 bytes, SHA-256
+`d527f033d2549b86424db0ef1e87b785f92f53901036afd0c0a24bd629a766a5`, and it holds
+64,237 product records. Nothing in it was written by this tool or by anybody
+connected to it.
+
+That hash, and not a date, is how you tell whether you have the same file. Open
+Beauty Facts republishes the export daily and the server's `Last-Modified` stamp
+moves with every republication whether or not the bytes change. Those exact
+17,884,435 bytes, with that exact hash, were served under a stamp of 9 September
+2026 and again under one of 18 September 2026.
+
+Reproduce every number below:
+
+```bash
+curl -sO https://static.openbeautyfacts.org/data/en.openbeautyfacts.org.products.csv.gz
+shasum -a 256 en.openbeautyfacts.org.products.csv.gz
+python3 scripts/measure_corpus.py en.openbeautyfacts.org.products.csv.gz
+```
+
+Those three commands are the whole of it. `scripts/measure_corpus.py` reads the
+gzipped export as served, so there is nothing to convert first. It opens with
+the file it read and what it found in it:
+
+```
+corpus file                   : en.openbeautyfacts.org.products.csv.gz
+sha256                        : d527f033d2549b86424db0ef1e87b785f92f53901036afd0c0a24bd629a766a5
+bytes                         : 17884435
+records in the export         : 64237
+products in corpus            : 17626
+no ingredient names recovered : 31
+lists actually read           : 17595
+median ingredients per list   : 17
+```
+
+17,626 of the 64,237 records carry an ingredient list. 31 of those lists yielded
+no readable ingredient names at all, leaving **17,595 lists read**, median 17
+ingredients each. If the hash you get is not the one above, you have a later
+export and the counts will differ.
+
+The export is Open Database Licence 1.0, which is share alike and therefore
+incompatible with shipping a filtered copy of it inside an MIT repository, so it
+is not vendored here. Only the measurements are.
 
 **3,050 of the 17,595, or 17.3 per cent, name at least one substance carrying a
 date that has not arrived.** 2,703 name one such substance, 334 name two, 13 name
 three.
 
-Counted by the number of lists naming each:
+Counted by the number of lists naming each. A substance is counted once however
+the label spelled it. The register holds several names for most of its
+substances, and Geranial is one of them: it is a second glossary name for
+Citral, not a substance of its own. So the three lists that printed Geranial are
+three of Citral's 1,419, and there is no Geranial row. The tool itself still
+reports the name it read on your label, so a list printing Geranial is reported
+as Geranial.
 
 | Substance | Lists | Date | What the date is |
 |---|---:|---|---|
 | Benzyl Salicylate | 1,614 | 1 January 2027 | new restriction starts |
-| Citral | 1,416 | 1 January 2027 | new restriction starts |
-| Diethylamino Hydroxybenzoyl Hexyl Benzoate | 190 | 1 January 2027 | new restriction starts |
+| Citral | 1,419 | 1 January 2027 | new restriction starts |
+| Diethylamino Hydroxybenzoyl Hexyl Benzoate (DHHB) | 190 | 1 January 2027 | new restriction starts |
 | Pinene | 77 | 1 August 2028 | already in force, sell-through ends |
 | Methyl Salicylate | 56 | 1 August 2028 | already in force, sell-through ends |
 | Retinol | 47 | 1 May 2027 | already in force, sell-through ends |
 | Zinc Acetate | 4 | 1 January 2027 | new restriction starts |
 | Triphenyl Phosphate | 3 | 1 January 2027 | prohibition starts |
-| Geranial | 3 | 1 January 2027 | new restriction starts |
 
-Nine of the register's fourteen substances were seen at least once. The other five
+Eight of the register's fourteen substances were seen at least once. The other six
 appear in no list it read, which is a fact about this corpus and not evidence that
-nothing uses them.
+nothing uses them. Nine distinct register names matched a label, out of the 49
+the register can match. Those two counts answer different questions and the
+measurement script prints both.
 
 **The corpus is not a sample of the EU market.** Open Beauty Facts is a global,
 volunteer-contributed database with a heavy western European skew. It is what was
