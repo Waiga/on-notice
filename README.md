@@ -33,7 +33,7 @@ Exit code is 1 when something on the list has a date, 0 when nothing does, 2 whe
 the register cannot be read.
 
 ```
-on-notice 0.1.2   register built 2026-09-18
+on-notice 0.1.3   register built 2026-09-18
 read 5 ingredient(s) from night-cream.txt
 
 2 of them are named in an EU rule with a date still ahead of it.

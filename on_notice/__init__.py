@@ -6,7 +6,7 @@ each restriction starts. It never says a product is legal or illegal, compliant
 or non-compliant. It reports a date and the rule that carries it.
 """
 
-__version__ = "0.1.2"
+__version__ = "0.1.3"
 
 from .register import Register, Finding, load_register
 from .ingredients import read_ingredients
