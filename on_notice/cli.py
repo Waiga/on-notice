@@ -195,7 +195,8 @@ def build_parser():
         description="Report which ingredients on a list have an EU deadline that has "
                     "not arrived yet.")
     parser.add_argument("file", nargs="?", default="-",
-                        help="a file holding an ingredient list, or - for standard input")
+                        help='a file holding an ingredient list, or "-" for '
+                             'standard input')
     parser.add_argument("--register", default=None, help="path to a register.json")
     parser.add_argument("--before", default=None, metavar="YYYY-MM-DD",
                         help="only report restrictions that start on or before this date")
