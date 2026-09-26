@@ -265,3 +265,8 @@ the tool works offline and nothing about your formulation leaves your machine.
 ## Licence
 
 MIT.
+
+## Elsewhere
+
+The rest of these tools, and the writing about what real files did to them, is at
+[waiga.github.io](https://waiga.github.io).
